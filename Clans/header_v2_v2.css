@@ -1,0 +1,76 @@
+    /*  clan symbols version */
+    
+    .navbarContainer {
+        position: absolute;
+        width: 44w;
+        left: 30%;
+        background-color: #fdb750;
+    }
+    
+    .navbarContainer ul {
+        list-style-type: none;
+    }
+    
+    .navbarContainer li {
+        display: block;
+        float: left;
+        padding-right: 3.5vw;
+        /*      padding-left: 2.5em*/
+        /* width: 4em; */
+        height: 2.5em;
+        line-height: 1.5em;
+        font-family: 'montserrat';
+        color: #000000;
+    }
+    
+    .navbarContainer a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .navbarContainer li:hover {
+        padding-left: 2em;
+        /*      padding-right: -1em;*/
+        font-weight: bold;
+        width: 1vw;
+        background-color: red;
+        margin-right: -1px;
+        margin-left: -3px;
+        margin-top: -5px;
+        margin-bottom: -20px;
+        text-align: center;
+        line-height: 4vh;
+        box-shadow: 0 0 18px 0 #ac2c05;
+    }
+    /* ================================================ */
+    /* index menu configuration */
+    
+    #index {
+        position: absolute;
+        left: 20vw;
+        top: 15vh;
+        background-color: antiquewhite;
+    }
+    
+    #index li {
+        display: inline-block;
+        position: relative;
+        letter-spacing: .6em;
+    }
+    
+    #index a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'montserrat';
+    }
+    /*
+    menu:first-child {
+        padding-left: -2em;
+        margin-left: -2em;
+    }
+*/
+    
+    #index li:hover {
+        background-color: aquamarine;
+    }
+    /* ========================================================================= */

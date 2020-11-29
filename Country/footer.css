@@ -5,8 +5,9 @@
     content: "";
     width: 100vw;
     bottom: 0%;
-    height: 10vw;
+    height: 13vw;
     border-top: 4px solid;
+    padding-left: 8em;
 }
 
 .footerAboutUs {

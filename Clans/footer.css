@@ -1,26 +1,22 @@
 .footerContainer {
-    position: absolute;
-    bottom: 1vw;
+    position: relative;
     background-color: #fc2e20;
-    content: "";
     width: 100vw;
     bottom: 0%;
-    height: 10vw;
+    height: 13vw;
     border-top: 4px solid;
+    padding-left: 8em;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.6;
 }
 
 .footerAboutUs {
     position: absolute;
-    width: 24vw;
-    line-height: 1.6;
-    font-family: 'Open Sans';
-    font-size: 13px;
+    width: 44vw;
 }
 
 .footerAboutUs p:first-of-type {
-    width: 24vw;
-    line-height: 1.6;
-    font-family: 'Open Sans';
     font-weight: 900;
 }
 
@@ -29,7 +25,7 @@
 
 .footermenu {
     position: absolute;
-    left: 34vw;
+    left: 54vw;
     line-height: 1.8;
 }
 
@@ -39,7 +35,6 @@
 
 .footermenu a {
     text-decoration: none;
-    font-family: 'open sans';
     font-size: 14px;
     color: #000;
 }
@@ -49,15 +44,6 @@
 
 .footerSocial {
     position: absolute;
-    left: 60vw;
-    line-height: 1.6;
-    font-family: 'open sans';
-    font-size: 13px;
+    right: 16vw;
     font-weight: bold;
-}
-
-.footerSocial li {
-    list-style-type: none;
-    font-family: 'open sans';
-    font-size: 10px;
 }
