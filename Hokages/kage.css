@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+#Hats img{
+  position: relative; 
+  width: 10em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+
+#Kage img {
+  position:relative;
+  width: 12em;
+  height: 10em;
+  display:inline-block;
+  margin-left: 1em;
+  margin-right:1em;
+}
+
+
+
+
+
+
+
+

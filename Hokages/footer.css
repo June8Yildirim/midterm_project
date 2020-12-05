@@ -2,7 +2,8 @@
     position: relative;
     background-color: #fc2e20;
     width: 100vw;
-    bottom: 0%;
+    bottom: 0;
+    margin-top: 15vh;
     height: 13vw;
     border-top: 4px solid;
     padding-left: 8em;

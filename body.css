@@ -47,6 +47,7 @@ section {
     top: 20vh;
     overflow: hidden;
     width: 10vw;
+    cursor: pointer;
     height: auto;
     line-height: auto;
     border-radius: 20px;
@@ -60,14 +61,19 @@ section {
 
 .sideBar:hover .sideBarContent {
     display: block;
+    height: auto;
+    transition-delay: 900ms;
+    transition-duration: 2s;
+    -moz-transition-delay: 900ms;
 }
 
 .sideBarContent li {
     display: none;
 }
 
-.sideBar:hover .mainPage:hover li {
-    display: block
+.sideBarContent:hover .mainPage:hover li {
+    display: block;
+    transition-delay: 900ms;
 }
 
 .sideBar:hover .country:hover li {
@@ -92,6 +98,60 @@ section {
 
 
 /* ===============sidebar================== */
+
+
+/* ============ Characters images================= */
+
+.position {
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;
+    left: -2em;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.position img {
+    width: 20vw;
+    margin: .3em;
+    padding: .3em;
+}
+
+figcaption {
+    position: relative;
+    background-color: rgb(214, 160, 13, .9);
+    top: -2.3em;
+    text-align: right;
+    left: 23.4em;
+    width: min-content;
+}
+
+#gaara {
+    margin-top: 10em;
+}
+
+#itachi {
+    margin-top: 6em;
+}
+
+#itachi .position,
+#gaara .position {
+    display: block;
+    float: right;
+    /* clear: both; */
+    position: relative;
+    top: -1em;
+    right: 22em;
+    margin: 0;
+    padding: 0%;
+    left: 0;
+    /* z-index: -1; */
+}
+
+
+/* =========== */
 
 
 /*================Hidden and Showing Extra Info */

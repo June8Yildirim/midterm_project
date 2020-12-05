@@ -23,3 +23,31 @@
 .socialRes img:hover {
     width: 180%;
 }
+
+section {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-indent: 1em;
+    width: 50vw;
+    font-size: 14px;
+    position: relative;
+    left: 25vw;
+    text-align: justify;
+    top: 10vh;
+}
+
+#Hats img {
+    position: relative;
+    width: 10em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#Kage img {
+    position: relative;
+    width: 12em;
+    height: 10em;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}

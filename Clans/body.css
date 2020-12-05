@@ -4,6 +4,7 @@
     position: fixed;
     right: 2vw;
     top: 40vh;
+    z-index: 1;
 }
 
 .socialRes li {
@@ -88,6 +89,10 @@
 
 /* clan features  */
 
+#clans {
+    margin-left: 10em;
+}
+
 .nameOfClan {
     font-family: 'poppins';
     font-weight: 800;
@@ -114,9 +119,27 @@
 }
 
 .clanImage>img {
-    width: 30vw;
+    height: 30vh;
+    /* width: 30vw; */
 }
 
-.clanFigcap {
-    font-family: 'open sans';
+.clanImage>img:hover {
+    height: 60vh;
+    /* width: 30vw; */
+}
+
+#seju,
+#uchiha,
+#uzumaki,
+#kazakage,
+#hyuga,
+#sarutobi,
+#hatake,
+#nara,
+#yamanaka,
+#aburame,
+#inuzika,
+#raikage,
+#hurano {
+    margin-top: -15em;
 }

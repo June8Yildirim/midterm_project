@@ -1,0 +1,90 @@
+/*  clan symbols version */
+
+.navbarContainer {
+    position: absolute;
+    width: 60vw;
+    left: 25vw;
+    right: 25vw;
+    background-color: #fdb750;
+}
+
+.navbarContainer ul {
+    list-style-type: none;
+}
+
+.navbarContainer li {
+    display: block;
+    float: left;
+    padding-right: 6em;
+    text-align: center;
+    height: 2.5em;
+    line-height: 1.5em;
+    font-family: 'montserrat';
+    color: #000000;
+}
+
+.navbarContainer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbarContainer .konoha:hover {
+    background-image: url("Country/countrySign/konoho.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbarContainer .lighting:hover {
+    background-image: url("Country/countrySign/lighting.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbarContainer .rain:hover {
+    background-image: url("Country/countrySign/rain.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbarContainer .rock:hover {
+    background-image: url("Country/countrySign/rock.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbarContainer .water:hover {
+    background-image: url("Country/countrySign/water.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbarContainer .akatsuki:hover {
+    background-image: url("Country/countrySign/akatsuki.jpg");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 30px;
+    color: red;
+}
