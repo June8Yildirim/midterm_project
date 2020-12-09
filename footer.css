@@ -1,9 +1,11 @@
 .footerContainer {
     position: relative;
-    background-color: #fc2e20;
+    overflow: hidden;
+    background-color: #9e9d9aef;
     width: 100vw;
-    bottom: 0%;
+    bottom: 0;
     height: 13vw;
+    top: 20em;
     border-top: 4px solid;
     padding-left: 8em;
     font-family: 'Open Sans';
@@ -41,6 +43,15 @@
 
 
 /* ================================================== */
+
+#form {
+    position: absolute;
+    right: 23vw;
+    top: .7em;
+    width: 250px;
+    font-size: 12;
+    font-weight: bold;
+}
 
 .footerSocial {
     position: absolute;

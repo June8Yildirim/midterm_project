@@ -1,3 +1,9 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+
 /* Managing social bar */
 
 .socialRes {
@@ -24,8 +30,23 @@
     width: 180%;
 }
 
+
+/* =========forms */
+
+.survey {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+}
+
+.survey p {
+    font-weight: 800;
+}
+
+
+/* ================= */
+
 section {
-    font-family: 'Open Sans';
     font-weight: 300;
     text-indent: 1em;
     width: 50vw;
@@ -38,16 +59,67 @@ section {
 
 #Hats img {
     position: relative;
-    width: 10em;
-    margin-left: 5em;
-    margin-right: 5em;
+    width: 8em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-#Kage img {
+.Kage img {
     position: relative;
     width: 12em;
     height: 10em;
     display: inline-block;
     margin-left: 1em;
-    margin-right: 1em;
+    /* margin-right: 1em; */
 }
+
+.Kage .secondLine {
+    margin-left: 2em;
+}
+
+.Kage .thirdLine {
+    margin-left: 1.7em;
+}
+
+.Kage h2 {
+    text-align: center;
+}
+
+
+/* ===============sidebar================== */
+
+.sideBar {
+    position: fixed;
+    left: 1vw;
+    top: 20vh;
+    overflow: hidden;
+    width: 10vw;
+    cursor: pointer;
+    height: auto;
+    line-height: auto;
+    border-radius: 20px;
+    background-color: #8ce913;
+}
+
+.sideBarContent a {
+    text-decoration: none;
+}
+
+.sideBarContent li {
+    display: none;
+}
+
+.sideBar:hover li {
+    display: block;
+}
+
+.sideBar:hover ul li ul {
+    display: none;
+}
+
+.sideBar:hover li:hover ul {
+    display: block;
+}
+
+
+/* ===============sidebar================== */

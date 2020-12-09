@@ -1,9 +1,39 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+section {
+    font-weight: 300;
+    text-indent: 1em;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    text-align: justify;
+    top: 10vh;
+}
+
+
+/* =========forms */
+
+.survey {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+}
+
+.survey p {
+    font-weight: 800;
+}
+
+
 /* Managing social bar */
 
 .socialRes {
     position: fixed;
     right: 2vw;
     top: 40vh;
+    z-index: 10;
 }
 
 .socialRes li {
@@ -25,4 +55,4 @@
 }
 
 
-/* images location and desinging */
+/* ===============sidebar================== */

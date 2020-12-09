@@ -1,13 +1,126 @@
-section {
+body {
     font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+section {
     font-weight: 300;
     text-indent: 1em;
     width: 50vw;
-    font-size: 14px;
     position: relative;
     left: 25vw;
     text-align: justify;
     top: 10vh;
+}
+
+
+/* =========forms */
+
+.survey {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+}
+
+.survey p {
+    font-weight: 800;
+}
+
+
+/* ================= */
+
+
+/* ============== */
+
+.narutoRight {
+    position: absolute;
+    height: 60%;
+    top: 80vh;
+    left: 75vw;
+}
+
+.narutoRight+cite {
+    position: absolute;
+    top: 80vh;
+    left: 80vw;
+}
+
+.sasukeLeft {
+    position: absolute;
+    top: 80vh;
+    left: 3em;
+    height: 60%;
+}
+
+.sasukeLeft+cite {
+    position: absolute;
+    left: 10em;
+    top: 80vh;
+}
+
+.sishuiRight {
+    position: absolute;
+    height: 60%;
+    top: 200vh;
+    left: 75vw;
+}
+
+.itachiLeft {
+    position: absolute;
+    top: 200vh;
+    left: 3em;
+    height: 60%;
+}
+
+.sakuraRight {
+    position: absolute;
+    top: 270vh;
+    left: 3em;
+    height: 60%;
+}
+
+.hinataLeft {
+    position: absolute;
+    height: 60%;
+    top: 270vh;
+    left: 75vw;
+}
+
+.nejiLeft {
+    position: absolute;
+    top: 360vh;
+    left: 10em;
+    height: 60%;
+}
+
+.painLeft {
+    position: absolute;
+    height: 60%;
+    top: 420vh;
+    left: 10em;
+    z-index: -1;
+}
+
+.gaaraRight {
+    position: absolute;
+    top: 420vh;
+    height: 60%;
+    z-index: -1;
+    left: 75vw;
+}
+
+
+/* ================== */
+
+#jutsu {
+    position: relative;
+    top: 10em;
+}
+
+#keke {
+    position: relative;
+    top: 10em;
+    bottom: 10em;
 }
 
 
@@ -17,6 +130,7 @@ section {
     position: fixed;
     right: 2vw;
     top: 40vh;
+    z-index: 10;
 }
 
 .socialRes li {
@@ -41,7 +155,6 @@ section {
 /* ===============sidebar================== */
 
 .sideBar {
-    display: inline-block;
     position: fixed;
     left: 1vw;
     top: 20vh;
@@ -54,46 +167,24 @@ section {
     background-color: #8ce913;
 }
 
-.sideBarContent {
-    display: none;
-    /* z-index: 1; */
-}
-
-.sideBar:hover .sideBarContent {
-    display: block;
-    height: auto;
-    transition-delay: 900ms;
-    transition-duration: 2s;
-    -moz-transition-delay: 900ms;
+.sideBarContent a {
+    text-decoration: none;
 }
 
 .sideBarContent li {
     display: none;
 }
 
-.sideBarContent:hover .mainPage:hover li {
+.sideBar:hover li {
     display: block;
-    transition-delay: 900ms;
 }
 
-.sideBar:hover .country:hover li {
-    display: block
+.sideBar:hover ul li ul {
+    display: none;
 }
 
-.sideBar:hover .clans:hover li {
-    display: block
-}
-
-.sideBar:hover .beasts:hover li {
-    display: block
-}
-
-.sideBar:hover .hokages:hover li {
-    display: block
-}
-
-.sideBar:hover .akatsuki:hover li {
-    display: block
+.sideBar:hover li:hover ul {
+    display: block;
 }
 
 
@@ -101,6 +192,11 @@ section {
 
 
 /* ============ Characters images================= */
+
+div div {
+    position: relative;
+    top: 1em;
+}
 
 .position {
     display: block;
@@ -114,18 +210,10 @@ section {
 }
 
 .position img {
-    width: 20vw;
+    width: 19vw;
+    margin-top: -2em;
     margin: .3em;
     padding: .3em;
-}
-
-figcaption {
-    position: relative;
-    background-color: rgb(214, 160, 13, .9);
-    top: -2.3em;
-    text-align: right;
-    left: 23.4em;
-    width: min-content;
 }
 
 #gaara {
@@ -136,6 +224,7 @@ figcaption {
     margin-top: 6em;
 }
 
+#keke .position,
 #itachi .position,
 #gaara .position {
     display: block;
@@ -188,6 +277,14 @@ figcaption {
     display: initial;
 }
 
+#hiddenIt {
+    display: none;
+}
+
+#hiddenIt:target {
+    display: initial;
+}
+
 #hiddenNj {
     display: none;
 }
@@ -203,3 +300,14 @@ figcaption {
 #hiddenGa:target {
     display: initial;
 }
+
+#hiddenHin {
+    display: none;
+}
+
+#hiddenHin :target {
+    display: initial;
+}
+
+
+/* ===================== */

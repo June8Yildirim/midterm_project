@@ -1,27 +1,24 @@
 .footerContainer {
-    position: absolute;
-    bottom: 1vw;
-    background-color: #fc2e20;
-    content: "";
+    position: relative;
+    overflow: hidden;
+    background-color: #9e9d9aef;
     width: 100vw;
-    bottom: 0%;
+    bottom: 0;
     height: 13vw;
+    top: 20em;
     border-top: 4px solid;
     padding-left: 8em;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.6;
 }
 
 .footerAboutUs {
     position: absolute;
-    width: 24vw;
-    line-height: 1.6;
-    font-family: 'Open Sans';
-    font-size: 13px;
+    width: 44vw;
 }
 
 .footerAboutUs p:first-of-type {
-    width: 24vw;
-    line-height: 1.6;
-    font-family: 'Open Sans';
     font-weight: 900;
 }
 
@@ -30,7 +27,7 @@
 
 .footermenu {
     position: absolute;
-    left: 34vw;
+    left: 54vw;
     line-height: 1.8;
 }
 
@@ -40,7 +37,6 @@
 
 .footermenu a {
     text-decoration: none;
-    font-family: 'open sans';
     font-size: 14px;
     color: #000;
 }
@@ -48,17 +44,17 @@
 
 /* ================================================== */
 
-.footerSocial {
+#form {
     position: absolute;
-    left: 60vw;
-    line-height: 1.6;
-    font-family: 'open sans';
-    font-size: 13px;
+    right: 23vw;
+    top: .7em;
+    width: 250px;
+    font-size: 12;
     font-weight: bold;
 }
 
-.footerSocial li {
-    list-style-type: none;
-    font-family: 'open sans';
-    font-size: 10px;
+.footerSocial {
+    position: absolute;
+    right: 16vw;
+    font-weight: bold;
 }

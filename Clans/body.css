@@ -1,5 +1,10 @@
 /* Managing social bar */
 
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
 .socialRes {
     position: fixed;
     right: 2vw;
@@ -15,10 +20,8 @@
 
 .socialRes img {
     margin-left: -1.6em;
-    /* width: 3em; */
     margin-right: -1.3em;
     background-color: rgb(82, 32, 219);
-    /* z-index: -1; */
 }
 
 .socialRes img:hover {
@@ -26,71 +29,58 @@
 }
 
 
-/* ===============sidebar================== */
+/* =========forms */
 
-.sideBar {
-    font-family: 'Open Sans';
-    font-size: 12px;
+.survey {
+    position: absolute;
+    top: 10em;
+    left: 7em;
+}
+
+.survey p {
+    font-weight: 800;
+}
+
+
+/* ================= */
+
+
+/* index menu configuration */
+
+#index {
+    position: absolute;
+    left: 22vw;
+    top: 15vh;
+    background-color: antiquewhite;
+}
+
+#index li {
     display: inline-block;
-    position: fixed;
-    left: 1vw;
-    top: 20vh;
-    overflow: hidden;
-    width: 10vw;
-    height: auto;
-    line-height: auto;
-    border-radius: 20px;
-    background-color: #8ce913;
+    position: relative;
+    letter-spacing: .6em;
 }
 
-.sideBarContent {
-    display: none;
-    /* z-index: 1; */
+#index a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'montserrat';
 }
 
-.sideBar:hover .sideBarContent {
-    display: block;
-}
-
-.sideBarContent li {
-    display: none;
-}
-
-.sideBar:hover .mainPage:hover li {
-    display: block
-}
-
-.sideBar:hover .country:hover li {
-    display: block
-}
-
-.sideBar:hover .clans:hover li {
-    display: block
-}
-
-.sideBar:hover .beasts:hover li {
-    display: block
-}
-
-.sideBar:hover .hokages:hover li {
-    display: block
-}
-
-.sideBar:hover .akatsuki:hover li {
-    display: block
+#index li:hover {
+    background-color: aquamarine;
 }
 
 
-/* ===============sidebar================== */
-
-
-/* ========== */
+/* ========================================================================= */
 
 
 /* clan features  */
 
 #clans {
     margin-left: 10em;
+    width: 50vw;
+    position: relative;
+    left: 20em;
 }
 
 .nameOfClan {
@@ -99,16 +89,13 @@
     font-size: 1.4em;
     position: relative;
     top: 18vh;
-    left: 10vw;
 }
 
 .clanSpecialities {
     font-family: 'open sans';
-    width: 40vw;
     height: 20vh;
     position: relative;
     top: 20vh;
-    left: 10vw;
     text-indent: 2em;
 }
 

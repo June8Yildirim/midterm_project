@@ -25,83 +25,216 @@
 </head>
 
 
-<body>
-    <nav class="navbarContainer" id="top">
-        <menu>
-            <li> <a href="../index.html"> Home</a> </li>
-            <li> <a href="../Country/country.html">Country </a> </li>
-            <li> <a href="../Clans/clans.html">Clans </a></li>
-            <li> <a href="demons.html">Demons</a></li>
-            <li> <a href="../Hokages/hokages.html">Hokages</a></li>
-            <li> <a href="../Akatsuki/akatsuki.html">Akatsuki</a> </li>
-
-        </menu>
-    </nav>
-    <section class="sideBar">
-        <h3 class="dropbtn">Short-cut</h3>
-        <div class="sideBarContent">
-            <ul class="mainPage">
-                <p><a href="../index.html#intro">General info</a> </p>
-                <li><a href="../index.html#info">Characraters</a> </li>
-                <li><a href="../index.html#jutsu">Justu Guide</a> </li>
-                <li><a href="../index.html#keke">Keke-genkai</a> </li>
-            </ul>
-            <ul class="country">
-                <p><a href="Country/country.html">Country</a> </p>
-            </ul>
-            <ul class="clans">
-                <p><a href="Clans/clans.html">Clans </a></p>
-                <li><a href="../Clans/clans.html#otsutsuki" target="_parent">Otsutsuki</a> </li>
-                <li><a href="../Clans/clans.html#seju">Seju</a> </li>
-                <li><a href="../Clans/clans.html#uchiha">Uchiha</a> </li>
-                <li><a href="../Clans/clans.html#uzumaki">Uzumaki</a> </li>
-                <li><a href="../Clans/clans.html#kazakage">Kazekage</a> </li>
-                <li><a href="../Clans/clans.html#hyuga">Hyuga</a> </li>
-                <li><a href="../Clans/clans.html#sarutobi">Sarutobi</a> </li>
-                <li><a href="../Clans/clans.html#hakake">Hatake</a> </li>
-                <li><a href="../Clans/clans.html#nara">Nara</a> </li>
-                <li><a href="../Clans/clans.html#yamanaka">Yamanaka</a> </li>
-                <li><a href="../Clans/clans.html#aburame">Aburame</a> </li>
-                <li><a href="../Clans/clans.html#inuzika">Inuzika</a> </li>
-                <li><a href="../Clans/clans.html#raikage">Raikage</a> </li>
-                <li><a href="../Clans/clans.html#Hurano">Hurano</a> </li>
-            </ul>
-            <ul class="beasts">
-                <p><a href="Demons/demons.html">Tail Beasts</a></p>
-                <li><a href="#ichibi">Ichibi</a> </li>
-                <li><a href="#nibi">Nibi</a> </li>
-                <li><a href="#sanbi">Sanbi</a> </li>
-                <li><a href="#yonbi">Yonbi</a> </li>
-                <li><a href="#gobi">Gobi</a> </li>
-                <li><a href="#rokubi">Rokubi</a> </li>
-                <li><a href="#nababi">Nababi</a> </li>
-                <li><a href="#hachibi">Hachibi</a> </li>
-                <li><a href="#kyubi">Kyubi</a> </li>
-                <li><a href="#jubi">Jubi</a> </li>
-            </ul>
-            <ul class="hokages">
-                <p><a href="Hokages/hokages.html">Hokages</a> </p>
-            </ul>
-            <ul class="akatsuki">
-                <p> <a href="Akatsuki/akatsuki.html">Akatsuki</a></p>
-            </ul>
+<body id="top">
+    <form class="survey" action="post">
+        <p>What is the your favorite beast</p>
+        <div class="modal">
+            <input type="radio" name="favorite" id="onetail" value="onetail">
+            <label for="onetail">One Tail</label>
         </div>
+        <div>
+            <input type="radio" name="favorite" id="twotail" value="twotail">
+            <label for="twotail"> Two Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="threetail" value="threetail">
+            <label for="threetail">Three Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="fouttail" value="fouttail">
+            <label for="fouttail">Fout Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="fivetail" value="fivetail">
+            <label for="fivetail">Five Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="hyuga" value="sixtail">
+            <label for="sixtail">Six Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="seventail" value="seventail">
+            <label for="seventail">Seven Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="eigthtail" value="eigthtail">
+            <label for="eigthtail">Eigth Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="ninetail" value="ninetail">
+            <label for="ninetail">Nine Tail</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="ninetail" value="ninetail">
+            <label for="temtail">Ten Tail</label>
+        </div>
+        <button>Subscribe</button>
+    </form>
+    <div class="box"></div>
+    <nav class="navbarContainer">
+        <ul class="firstLevel">
+            <li class="konoha"> <a href="../index.html"> Home</a>
+                <ul class="secondLevel">
+                    <li><a href="../index.html">Information</a> </li>
+                    <li><a href="../index.html#info">Characraters</a> </li>
+                    <li><a href="../index.html#jutsu">Justu info</a> </li>
+                    <li><a href="../index.html#keke">Blood line</a> </li>
+                </ul>
+            </li>
+            <li class="rock"> <a href="../Country/country.html">Country</a>
+                <ul class="secondLevel">
+                    <li><a href="../Country/country.html">Fire</a> </li>
+                    <li><a href="../Country/country.html">Water</a> </li>
+                    <li><a href="../Country/country.html"> Sand</a> </li>
+                    <li><a href="../Country/country.html">Earth</a> </li>
+                    <li><a href="../Country/country.html"> Mist</a> </li>
+                    <li><a href="../Country/country.html"> Lightning</a> </li>
+                    <li><a href="../Country/country.html">Wind</a> </li>
+                </ul>
+            </li>
 
-    </section>
-    <!-- ============== -->
+            <li class="rain"> <a href="../Clans/clans.html">Clans </a>
+                <ul class="secondLevel">
+                    <li><a href="../Clans/clans.html#otsutsuki">Otsutsuki</a> </li>
+                    <li><a href="../Clans/clans.html#seju">Seju</a> </li>
+                    <li><a href="../Clans/clans.html#uchiha">Uchiha</a> </li>
+                    <li><a href="../Clans/clans.html#uzumaki">Uzumaki</a> </li>
+                    <li><a href="../Clans/clans.html#kazegake">Kazekage</a> </li>
+                    <li><a href="../Clans/clans.html#hyuga">Hyuga</a> </li>
+                    <li><a href="../Clans/clans.html#sarutobi">Sarutobi</a> </li>
+                    <li><a href="../Clans/clans.html#hatake">Hatake</a> </li>
+                    <li><a href="../Clans/clans.html#nara">Nara</a> </li>
+                    <li><a href="../Clans/clans.html#yamanaka">Yamanaka</a> </li>
+                    <li><a href="../Clans/clans.html#aburame">Aburame</a> </li>
+                    <li><a href="../Clans/clans.html#inuzika">Inuzika</a> </li>
+                    <li><a href="../Clans/clans.html#raikage">Raikage</a> </li>
+                    <li><a href="../Clans/clans.html#hurano">Hurano</a> </li>
+                </ul>
+            </li>
+            <li class="lighting"> <a href=" demons.html">Jinchuriki </a>
+                <ul class="secondLevel">
+                    <li><a href="demons.html#ichibi">One-Tail</a> </li>
+                    <li><a href="demons.html#nibi">Two-Tail</a> </li>
+                    <li><a href="demons.html#sanbi">Three-Tail</a> </li>
+                    <li><a href="demons.html#yonbi">Four-Tail</a> </li>
+                    <li><a href="demons.html#gobi">Five-Tail</a> </li>
+                    <li><a href="demons.html#rokubi">Six-Tail</a> </li>
+                    <li><a href="demons.html#nababi">Seven-Tail</a> </li>
+                    <li><a href="demons.html#hachibi">Eigth-Tail</a> </li>
+                    <li><a href="demons.html#kyubi">Nine-Tail</a> </li>
+                    <li><a href="demons.html#jubi">Ten-Tail</a> </li>
+                </ul>
+            </li>
+            <li class="water"> <a href="../Hokages/hokages.html">Hokages</a>
+                <ul class="secondLevel">
+                    <li><a href="../Hokages/hokages.html">Hokage</a> </li>
+                    <li><a href="../Hokages/hokages.html#kazekage">Kazekage</a> </li>
+                    <li><a href="../Hokages/hokages.html#mizukage">Mizukage</a> </li>
+                    <li><a href="../Hokages/hokages.html#raikage">Raikage</a> </li>
+                </ul>
+            </li>
+            <li class="akatsuki"> <a href="../Akatsuki/akatsuki.html">Akatsuki</a>
+                <ul class="secondLevel">
+                    <li><a href="demons.html#ichibi">One-Tail</a> </li>
+                    <li><a href="demons.html#nibi">Two-Tail</a> </li>
+                    <li><a href="demons.html#sanbi">Three-Tail</a> </li>
+                    <li><a href="demons.html#yonbi">Four-Tail</a> </li>
+                    <li><a href="demons.html#gobi">Five-Tail</a> </li>
+                    <li><a href="demons.html#rokubi">Six-Tail</a> </li>
+                    <li><a href="demons.html#nababi">Seven-Tail</a> </li>
+                    <li><a href="demons.html#hachibi">Eigth-Tail</a> </li>
+                    <li><a href="demons.html#kyubi">Nine-Tail</a> </li>
+                    <li><a href="demons.html#jubi">Ten-Tail</a> </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <section class="sideBar">
+
+            <div>
+                <h3 class="dropbtn">Short-cut</h3>
+                <ul class="sideBarContent">
+                    <li class="mainPage">Main Page
+                        <ul>
+                            <li><a href="#intro">General info</a> </li>
+                            <li><a href="#info">Characraters</a> </li>
+                            <li><a href="#jutsu">Justu Guide</a> </li>
+                            <li><a href="#keke">Keke-genkai</a> </li>
+                        </ul>
+                    </li>
+                    <li class="country"> Country Page
+                        <ul>
+                            <li><a href="Country/country.html"> Country</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="clans">Clan Page
+                        <ul>
+                            <li><a href="Clans/clans.html">Clans </a></li>
+                            <li><a href="Clans/clans.html#otsutsuki" target="_parent">Otsutsuki</a> </li>
+                            <li><a href="Clans/clans.html#seju">Seju</a> </li>
+                            <li><a href="Clans/clans.html#uchiha">Uchiha</a> </li>
+                            <li><a href="Clans/clans.html#uzumaki">Uzumaki</a> </li>
+                            <li><a href="Clans/clans.html#kazakage">Kazekage</a> </li>
+                            <li><a href="Clans/clans.html#hyuga">Hyuga</a> </li>
+                            <li><a href="Clans/clans.html#sarutobi">Sarutobi</a> </li>
+                            <li><a href="Clans/clans.html#hakake">Hatake</a> </li>
+                            <li><a href="Clans/clans.html#nara">Nara</a> </li>
+                            <li><a href="Clans/clans.html#yamanaka">Yamanaka</a> </li>
+                            <li><a href="Clans/clans.html#aburame">Aburame</a> </li>
+                            <li><a href="Clans/clans.html#inuzika">Inuzika</a> </li>
+                            <li><a href="Clans/clans.html#raikage">Raikage</a> </li>
+                            <li><a href="Clans/clans.html#hurano">Hurano</a> </li>
+                        </ul>
+                    </li>
+                    <li class="beasts"> Jinchuruki Page
+                        <ul>
+                            <li><a href="Demons/demons.html">Tail Beasts</a></li>
+                            <li><a href="Demons/demons.html#ichibi">Ichibi</a> </li>
+                            <li><a href="Demons/demons.html#nibi">Nibi</a> </li>
+                            <li><a href="Demons/demons.html#sanbi">Sanbi</a> </li>
+                            <li><a href="Demons/demons.html#yonbi">Yonbi</a> </li>
+                            <li><a href="Demons/demons.html#gobi">Gobi</a> </li>
+                            <li><a href="Demons/demons.html#rokubi">Rokubi</a> </li>
+                            <li><a href="Demons/demons.html#nababi">Nababi</a> </li>
+                            <li><a href="Demons/demons.html#hachibi">Hachibi</a> </li>
+                            <li><a href="Demons/demons.html#kyubi">Kyubi</a> </li>
+                            <li><a href="Demons/demons.html#jubi">Jubi</a> </li>
+                        </ul>
+                    </li>
+                    <li class="hokages">Kages
+                        <ul>
+                            <li><a href="Hokages/hokages.html#hokage">Hokage</a> </li>
+                            <li><a href="Hokages/hokages.html#kazekage">Kazekage</a> </li>
+                            <li><a href="Hokages/hokages.html#mizukage">Mizukage</a> </li>
+                            <li><a href="Hokages/hokages.html#raikage">Raikage</a> </li>
+                        </ul>
+                    </li>
+                    <li class="akatsuki">Akatsuki Page
+                        <ul>
+                            <li><a href="Akatsuki/akatsuki.html">Akatsuki</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section> -->
+
     <div class="socialRes">
         <ul>
             <li>
-                <a href="https://www.facebook.com/"><img src="logos/fa.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="logos/fa.png" alt="facebook"></a>
             </li>
             <li>
-                <a href="https://mobile.twitter.com/home"><img src="logos/tw.png" alt=""> </a>
+                <a href="https://www.twitter.com/"><img src="logos/tw.png" alt="twitter"> </a>
             </li>
             <li>
-                <a href="https://www.pinterest.ca/"><img src="logos/pi.png" alt=""> </a>
+                <a href="https://www.pinterest.ca/"><img src="logos/pi.png" alt="pinterest"> </a>
             </li>
             <li>
-                <a href="https://www.tumblr.com/"> <img src="logos/tbl.png" alt=""></a>
+                <a href="https://www.tumblr.com/"> <img src="logos/tbl.png" alt="tumblr"></a>
             </li>
             <li>
                 <a href="#top"> <img src="logos/bctop.png" alt="top"></a>
@@ -110,7 +243,6 @@
     </div>
     <section id="tailBeasts">
         <h1>Tail Beasts and Their Hosts</h1>
-
         <div>
             <h2>Stroy of Tail Beasts</h2>
             <p>
@@ -257,7 +389,7 @@
         </div>
         <div id="yonbi">
             <h2>Four-Tail aka Son Goku </h2>
-            <h3>Host:<a href="">Roshi</a> </h3>
+            <h3>Host: Roshi</h3>
             <figure class="leftFloat">
                 <img src="bijus/fourTail.jpg" alt="Son Goku">
                 <figcaption> <a href="workCited.html#thirtysix">[36]</a>Four Tail</figcaption>
@@ -275,7 +407,7 @@
 
         <div id="gobi">
             <h3>Five-Tail aka Kokuō </h3>
-            <h3>Host:<a href="">Han</a></h3>
+            <h3>Host:Han </h3>
             <figure class="rightFloat five">
                 <img src="bijus/fiveTail.jpg" alt="Kokuō">
                 <figcaption><a href="workCited.html#thirtyseven">[37]</a> Five Tail</figcaption>
@@ -292,7 +424,7 @@
         </div>
         <div id="rokubi">
             <h3>Six-Tail aka Saiken </h3>
-            <h3>Host: <a href="">Utakata</a></h3>
+            <h3>Host: Utakata </h3>
 
             <figure class="rightFloat">
                 <img src="bijus/sixTail.png" alt="Saiken">
@@ -309,14 +441,15 @@
         </div>
         <div id="nababi">
             <h3>Seven-Tail aka Chōmei </h3>
-            <h3>Host:<a href="">Fū</a> </h3>
+            <h3>Host: Fū</h3>
             <figure class="rightFloat">
                 <img src="bijus/severnTail.png" alt="Chōmei">
                 <figcaption><a href="workCited.html#thirtyeight">[38]</a> Seven-Tail</figcaption>
             </figure>
             <p>
-                The Seven-Tails is a rhino beetle with six wings and a tail, whose host was a teal-haired, orange-eyed girl from the Hidden Waterfall Village. <cite>https://www.deviantart.com/alxnarutoall/art/Chomei-Nanabi-Seven-Tails-358964268</cite>
+                The Seven-Tails is a rhino beetle with six wings and a tail, whose host was a teal-haired, orange-eyed girl from the Hidden Waterfall Village.
             </p>
+
         </div>
         <div id="hachibi">
             <h3>Eight-Tail aka Gyuki </h3>
@@ -324,9 +457,11 @@
             <h3>Host:</h3>
             <ul>
                 <li>
-                    <a href="">Killer B</a>
+                    <h3> Killer B</h3>
                 </li>
-                <li>Blue B</li>
+                <li>
+                    <h3> Blue B</h3>
+                </li>
             </ul>
 
             <figure class="rightFloat">
@@ -348,8 +483,12 @@
                 <li>
                     <a href="../index.html#naruto">Naruto Uzumaki</a>
                 </li>
-                <li><a href="">Kushina Uzumaki</a> </li>
-                <li><a href="">Minato Namikaze</a></li>
+                <li>
+                    <h3>Kushina Uzumaki</h3>
+                </li>
+                <li>
+                    <h3>Minato Namikaze</h3>
+                </li>
                 <li>Mito Uzumaki</li>
                 <li> Kinkaku and Ginkaku </li>
             </ul>
@@ -399,12 +538,14 @@
             <h3>Hosts:</h3>
             <ul>
                 <li>
-                    <a href="">Sage of Six Paths/Hagoromo Ōtsutsuki</a>
+                    <h3> Hagoromo Ōtsutsuki</h3>
                 </li>
                 <li>
-                    <a href="">Tobi/Obito Uchiha</a>
+                    <h3>Tobi/Obito Uchiha</h3>
                 </li>
-                <li><a href="">Madara Uchiha</a></li>
+                <li>
+                    <h3>Madara Uchiha</h3>
+                </li>
             </ul>
 
             <p>
@@ -435,6 +576,15 @@
                 <li> <a href="../Hokages/hokages.html">Hokages</a></li>
                 <li><a href="../Akatsuki/akatsuki.html">Akatsuki</a> </li>
             </ul>
+        </div>
+        <div id="form">
+            <form action="POST">
+                <label for="textBox"> Please type your recomendation about our website project</label>
+                <br>
+                <textarea rows="5" cols="20" type="text" name="request" placeholder="Type your request and compaint" id="textBox"></textarea>
+                <br>
+                <button>submit </button>
+            </form>
         </div>
         <div class="footerSocial">
             <p>Stay in Touch</p>

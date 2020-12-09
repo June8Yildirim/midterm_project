@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header_v2_v2.css">
     <link rel="stylesheet" href="body.css">
+    <script src="scripts.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Open Sans for paragraph and list item -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -23,72 +24,226 @@
     <title>Wellcome Naruto's World</title>
 </head>
 
-<body>
-    <nav class="navbarContainer" id="top">
-        <ul>
-            <li class="konoha"> <a href="index.html"> Home</a> </li>
-            <li class="lighting"> <a href="Country/country.html">Country </a> </li>
-            <li class="rain"> <a href="Clans/clans.html">Clans </a></li>
-            <li class="rock"> <a href="Demons/demons.html">Demons</a></li>
-            <li class="water"> <a href="Hokages/Hokages.html">Hokages</a></li>
-            <li class="akatsuki"> <a href="Akatsuki/akatsuki.html">Akatsuki</a> </li>
+<body id="top">
 
+    <form action="">
+        <input type="button" value="Warn me, in case of forgetten" onclick="warn();" />
+    </form>
+
+
+    <form class="survey" action="post">
+        <p>Who is the your favorite character</p>
+        <div class="modal">
+            <input type="radio" name="favorite" id="naruto" value="naruto">
+            <label for="naruto">Naruto</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="sasuke" value="sasuke">
+            <label for="sasuke">Sasuke</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="sakura" value="sakura">
+            <label for="sakura">Sakura</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="hinata" value="hinata">
+            <label for="hinata">Hinata</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="gaaraa" value="gaaraa">
+            <label for="gaaraa">Gaara</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="shikamaru" value="shikamaru">
+            <label for="shikamaru">Shikamaru</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="sishui" value="sishui">
+            <label for="sishui">Sishui</label>
+        </div>
+        <div>
+            <input type="radio" name="favorite" id="shikamaru" value="shikamaru">
+            <label for="shikamaru">Shikamaru</label>
+        </div>
+
+        <div>
+            <input type="radio" name="favorite" id="itachii" value="itachii">
+            <label for="itachii">Itachi</label>
+        </div>
+        <button>Subscribe</button>
+    </form>
+
+
+
+
+    <div class="images">
+        <img class="sasukeLeft" src="images/sasuke.png" alt="">
+        <cite><a href="workCited.html#thirtythree">[16]</a> </cite>
+
+        <img class="narutoRight" src="images/naruto_uzumaki.png" alt="">
+        <cite><a href="workCited.html#thirtythree">[16]</a> </cite>
+
+    </div>
+
+    <nav class="navbarContainer">
+        <ul class="firstLevel">
+            <li class="konoha"> <a href="index.html"> Home</a>
+                <ul class="secondLevel">
+                    <li><a href="#intro">Information</a> </li>
+                    <li><a href="#info">Characraters</a> </li>
+                    <li><a href="#jutsu">Justu info</a> </li>
+                    <li><a href="#keke">Blood line</a> </li>
+                </ul>
+            </li>
+            <li class="rock"> <a href="Country/country.html">Country</a>
+                <ul class="secondLevel">
+                    <li><a href="Country/country.html">Fire</a> </li>
+                    <li><a href="Country/country.html">Water</a> </li>
+                    <li><a href="Country/country.html"> Sand</a> </li>
+                    <li><a href="Country/country.html">Earth</a> </li>
+                    <li><a href="Country/country.html"> Mist</a> </li>
+                    <li><a href="Country/country.html"> Lightning</a> </li>
+                    <li><a href="Country/country.html">Wind</a> </li>
+                </ul>
+            </li>
+
+            <li class="rain"> <a href="Clans/clans.html">Clans </a>
+                <ul class="secondLevel">
+                    <li><a href="Clans/clans.html#otsutsuki">Otsutsuki</a> </li>
+                    <li><a href="Clans/clans.html#seju">Seju</a> </li>
+                    <li><a href="Clans/clans.html#uchiha">Uchiha</a> </li>
+                    <li><a href="Clans/clans.html#uzumaki">Uzumaki</a> </li>
+                    <li><a href="Clans/clans.html#kazakage">Kazekage</a> </li>
+                    <li><a href="Clans/clans.html#hyuga">Hyuga</a> </li>
+                    <li><a href="Clans/clans.html#sarutobi">Sarutobi</a> </li>
+                    <li><a href="Clans/clans.html#hatake">Hatake</a> </li>
+                    <li><a href="Clans/clans.html#nara">Nara</a> </li>
+                    <li><a href="Clans/clans.html#yamanaka">Yamanaka</a> </li>
+                    <li><a href="Clans/clans.html#aburame">Aburame</a> </li>
+                    <li><a href="Clans/clans.html#inuzika">Inuzika</a> </li>
+                    <li><a href="Clans/clans.html#raikage">Raikage</a> </li>
+                    <li><a href="Clans/clans.html#hurano">Hurano</a> </li>
+                </ul>
+            </li>
+            <li class="lighting"> <a href="Demons/demons.html">Jinchuriki </a>
+                <ul class="secondLevel">
+                    <li><a href="Demons/demons.html#ichibi">One-Tail</a> </li>
+                    <li><a href="Demons/demons.html#nibi">Two-Tail</a> </li>
+                    <li><a href="Demons/demons.html#sanbi">Three-Tail</a> </li>
+                    <li><a href="Demons/demons.html#yonbi">Four-Tail</a> </li>
+                    <li><a href="Demons/demons.html#gobi">Five-Tail</a> </li>
+                    <li><a href="Demons/demons.html#rokubi">Six-Tail</a> </li>
+                    <li><a href="Demons/demons.html#nababi">Seven-Tail</a> </li>
+                    <li><a href="Demons/demons.html#hachibi">Eigth-Tail</a> </li>
+                    <li><a href="Demons/demons.html#kyubi">Nine-Tail</a> </li>
+                    <li><a href="Demons/demons.html#jubi">Ten-Tail</a> </li>
+                </ul>
+            </li>
+            <li class="water"> <a href="Hokages/Hokages.html">Hokages</a>
+                <ul class="secondLevel">
+                    <li><a href="Hokages/hokages.html#hokage">Hokage</a> </li>
+                    <li><a href="Hokages/hokages.html#kazekage">Kazekage</a> </li>
+                    <li><a href="Hokages/hokages.html#mizukage">Mizukage</a> </li>
+                    <li><a href="Hokages/hokages.html#raikage">Raikage</a> </li>
+                </ul>
+            </li>
+            <li class="akatsuki"> <a href="Akatsuki/akatsuki.html">Akatsuki</a>
+                <ul class="secondLevel">
+                    <li><a href="Demons/demons.html#nibi">Nibi</a> </li>
+                    <li><a href="Demons/demons.html#sanbi">Sanbi</a> </li>
+                    <li><a href="Demons/demons.html#yonbi">Yonbi</a> </li>
+                    <li><a href="Demons/demons.html#gobi">Gobi</a> </li>
+                    <li><a href="Demons/demons.html#rokubi">Rokubi</a> </li>
+                    <li><a href="Demons/demons.html#nababi">Nababi</a> </li>
+                    <li><a href="Demons/demons.html#hachibi">Hachibi</a> </li>
+                    <li><a href="Demons/demons.html#kyubi">Kyubi</a> </li>
+                    <li><a href="Demons/demons.html#jubi">Jubi</a> </li>
+                </ul>
+            </li>
         </ul>
     </nav>
+    <div class="images">
+        <img class="itachiLeft" src="images/itachi3.png" alt="">
+        <img class="sishuiRight" src="images/Sishui.png" alt="">
+    </div>
 
-    <section class="sideBar">
-        <h3 class="dropbtn">Short-cut</h3>
-        <div class="sideBarContent">
-            <ul class="mainPage">Main Page
-                <li><a href="#intro">General info</a> </li>
-                <li><a href="#info">Characraters</a> </li>
-                <li><a href="#jutsu">Justu Guide</a> </li>
-                <li><a href="#keke">Keke-genkai</a> </li>
-            </ul>
-            <ul class="country"> Country Page
-                <li><a href="Country/country.html"> Country</a></li>
-            </ul>
-            <ul class="clans">Clan Page
-                <li><a href="Clans/clans.html">Clans </a></li>
-                <li><a href="Clans/clans.html#otsutsuki" target="_parent">Otsutsuki</a> </li>
-                <li><a href="Clans/clans.html#seju">Seju</a> </li>
-                <li><a href="Clans/clans.html#uchiha">Uchiha</a> </li>
-                <li><a href="Clans/clans.html#uzumaki">Uzumaki</a> </li>
-                <li><a href="Clans/clans.html#kazakage">Kazekage</a> </li>
-                <li><a href="Clans/clans.html#hyuga">Hyuga</a> </li>
-                <li><a href="Clans/clans.html#sarutobi">Sarutobi</a> </li>
-                <li><a href="Clans/clans.html#hakake">Hatake</a> </li>
-                <li><a href="Clans/clans.html#nara">Nara</a> </li>
-                <li><a href="Clans/clans.html#yamanaka">Yamanaka</a> </li>
-                <li><a href="Clans/clans.html#aburame">Aburame</a> </li>
-                <li><a href="Clans/clans.html#inuzika">Inuzika</a> </li>
-                <li><a href="Clans/clans.html#raikage">Raikage</a> </li>
-                <li><a href="Clans/clans.html#Hurano">Hurano</a> </li>
-            </ul>
-            <ul class="beasts"> Jinchuruki Page
-                <li><a href="Demons/demons.html">Tail Beasts</a></li>
-                <li><a href="Demons/demons.html#ichibi">Ichibi</a> </li>
-                <li><a href="Demons/demons.html#nibi">Nibi</a> </li>
-                <li><a href="Demons/demons.html#sanbi">Sanbi</a> </li>
-                <li><a href="Demons/demons.html#yonbi">Yonbi</a> </li>
-                <li><a href="Demons/demons.html#gobi">Gobi</a> </li>
-                <li><a href="Demons/demons.html#rokubi">Rokubi</a> </li>
-                <li><a href="Demons/demons.html#nababi">Nababi</a> </li>
-                <li><a href="Demons/demons.html#hachibi">Hachibi</a> </li>
-                <li><a href="Demons/demons.html#kyubi">Kyubi</a> </li>
-                <li><a href="Demons/demons.html#jubi">Jubi</a> </li>
-            </ul>
-            <ul class="hokages">Kages Page
-                <p><a href="Hokages/hokages.html">Hokages</a> </p>
-            </ul>
-            <ul class="akatsuki">Akatsuki Page
-                <p><a href="Akatsuki/akatsuki.html">Akatsuki</a></p>
+
+    <!-- <section class="sideBar">
+
+        <div>
+            <h3 class="dropbtn">Short-cut</h3>
+            <ul class="sideBarContent">
+                <li class="mainPage">Main Page
+                    <ul>
+                        <li><a href="#intro">General info</a> </li>
+                        <li><a href="#info">Characraters</a> </li>
+                        <li><a href="#jutsu">Justu Guide</a> </li>
+                        <li><a href="#keke">Keke-genkai</a> </li>
+                    </ul>
+                </li>
+                <li class="country"> Country Page
+                    <ul>
+                        <li><a href="Country/country.html"> Country</a></li>
+                    </ul>
+                </li>
+
+                <li class="clans">Clan Page
+                    <ul>
+                        <li><a href="Clans/clans.html">Clans </a></li>
+                        <li><a href="Clans/clans.html#otsutsuki" target="_parent">Otsutsuki</a> </li>
+                        <li><a href="Clans/clans.html#seju">Seju</a> </li>
+                        <li><a href="Clans/clans.html#uchiha">Uchiha</a> </li>
+                        <li><a href="Clans/clans.html#uzumaki">Uzumaki</a> </li>
+                        <li><a href="Clans/clans.html#kazakage">Kazekage</a> </li>
+                        <li><a href="Clans/clans.html#hyuga">Hyuga</a> </li>
+                        <li><a href="Clans/clans.html#sarutobi">Sarutobi</a> </li>
+                        <li><a href="Clans/clans.html#hakake">Hatake</a> </li>
+                        <li><a href="Clans/clans.html#nara">Nara</a> </li>
+                        <li><a href="Clans/clans.html#yamanaka">Yamanaka</a> </li>
+                        <li><a href="Clans/clans.html#aburame">Aburame</a> </li>
+                        <li><a href="Clans/clans.html#inuzika">Inuzika</a> </li>
+                        <li><a href="Clans/clans.html#raikage">Raikage</a> </li>
+                        <li><a href="Clans/clans.html#hurano">Hurano</a> </li>
+                    </ul>
+                </li>
+                <li class="beasts"> Jinchuruki Page
+                    <ul>
+                        <li><a href="Demons/demons.html">Tail Beasts</a></li>
+                        <li><a href="Demons/demons.html#ichibi">Ichibi</a> </li>
+                        <li><a href="Demons/demons.html#nibi">Nibi</a> </li>
+                        <li><a href="Demons/demons.html#sanbi">Sanbi</a> </li>
+                        <li><a href="Demons/demons.html#yonbi">Yonbi</a> </li>
+                        <li><a href="Demons/demons.html#gobi">Gobi</a> </li>
+                        <li><a href="Demons/demons.html#rokubi">Rokubi</a> </li>
+                        <li><a href="Demons/demons.html#nababi">Nababi</a> </li>
+                        <li><a href="Demons/demons.html#hachibi">Hachibi</a> </li>
+                        <li><a href="Demons/demons.html#kyubi">Kyubi</a> </li>
+                        <li><a href="Demons/demons.html#jubi">Jubi</a> </li>
+                    </ul>
+                </li>
+                <li class="hokages">Kages
+                    <ul>
+                        <li><a href="Hokages/hokages.html#hokage">Hokage</a> </li>
+                        <li><a href="Hokages/hokages.html#kazekage">Kazekage</a> </li>
+                        <li><a href="Hokages/hokages.html#mizukage">Mizukage</a> </li>
+                        <li><a href="Hokages/hokages.html#raikage">Raikage</a> </li>
+                    </ul>
+                </li>
+                <li class="akatsuki">Akatsuki Page
+                    <ul>
+                        <li><a href="Akatsuki/akatsuki.html">Akatsuki</a></li>
+                    </ul>
+                </li>
+
             </ul>
         </div>
 
-    </section>
+    </section> -->
     <!-- ======================== -->
-
+    <div class="images">
+        <img class="sakuraRight" src="images/sakuraFullmode.png" alt="">
+        <img class="hinataLeft" src="images/hinata.png" alt="">
+    </div>
     <div class="socialRes">
         <ul>
             <li>
@@ -125,12 +280,11 @@
     <section id="info">
         <h2>Characraters </h2>
         <div>
-
             <div id="naruto">
                 <h3>Naruto Uzumaki</h3>
                 <figure class="position">
                     <img src="images/Naruto.jpg" alt="Naruto">
-                    <figcaption>Naruto </figcaption>
+
                 </figure>
                 <p>
                     The main character, The Hero of Naruto, In case you couldn't tell; and the father of Boruto and Himawari Uzumaki in Boruto. He starts off as the stock Shonen anime Hero out to prove his worth to the villagers who've shunned and hated him by becoming the
@@ -138,7 +292,7 @@
                     from the evil Mizuki. He gradually matures from his Idiot Hero demeanor over the course of the series, and by the time Shippuden rolls in, he's older and wiser, not to mention stronger than ever.
                 </p>
 
-                <a href="#hiddenNa">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenNa">Read More</a>
                 <div id="hiddenNa">
                     <p>
                         Over the course of the series, Jiraiya's teachings and his interaction with Nagato/Pain influences Naruto into noting the futility of revenge and how hatred can ultimately destroy everything a person holds dear, thus driving Naruto's need to save Sasuke
@@ -149,21 +303,21 @@
                     <p>
                         Two years after the War, Naruto's mission to stop the moon from falling awakens his inner love for fellow teammate Hinata. He and Hinata get married not too long afterwards and have a son and a daughter together, Boruto and Himawari Uzumaki. Naruto later
                         achieves his dream of becoming Hokage by becoming the Seventh after Kakashi steps down. The Sequel Series, Boruto and its original film version explore his life as Hokage and the relationship between him and his son, Boruto.
-                        <cite><a href="workCited.html#two">[2]</a> </cite>
+                        <a href="">Read Less</a>
                     </p>
-                </div>
+                </div> <cite><a href="workCited.html#two">[2]</a> </cite>
             </div>
 
             <div id="sasuke">
                 <h3>Sasuke Uchiha</h3>
                 <figure class="position"><img src="images/Sasuke.jpg" alt="Sasuke">
-                    <figcaption>Sasuke </figcaption>
+
                 </figure>
                 <p>Sasuke Uchiha is Naruto's rival and The Lancer of Team 7, a prodigy who possesses the power copying Sharingan bloodline limit; he is also the father of Sarada Uchiha in Boruto. He's one of the last remaining members of the Clan, who were
                     mostly murdered by his Aloof Big Brother Itachi in a single night. Since the incident, Sasuke focused himself to acquire enough power to kill Itachi and avenge the clan. Initially a loner and so-not-a-team player, Sasuke develops a
                     grudging respect for Naruto. He eventually grows jealous of the possibility of Naruto outshining him, and abandons Konoha and heads off to join Orochimaru, who desired his Sharingan. Not even an epic battle with Naruto could change
                     his mind.</p>
-                <a href="#hiddenSa">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenSa">Read More</a>
                 <div id="hiddenSa">
                     <p>
                         In Shippuden, he returns, stronger than ever, and now knows of the Nine-Tailed Fox inside Naruto. He disposes of Orochimaru, forms a team of the latter's old captives and associates, calling the team "Snake" (Hebi), and finally faces his brother in battle.
@@ -186,15 +340,15 @@
                     <p>
                         Ultimately Naruto wins their final clash and finally redeems Sasuke, causing him to let go of all his hatred. As penance for his actions, he resolves to travel the world to prevent another incident from happening again. Along the way, he also returns
                         Sakura's feelings, get married and together they have one daughter, Sarada Uchiha. Later Sasuke becomes the personal teacher of his rival's son, Boruto.
-
-                        <cite><a href="workCited.html#three">[3]</a> </cite>
+                        <a href="">Read Less</a>
                 </div>
+                <cite><a href="workCited.html#three">[3]</a> </cite>
             </div>
 
             <div id="sakura">
                 <h3>Sakura Haruna</h3>
                 <figure class="position"><img src="images/Sakura.jpg" alt="Sakura" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11510985-1024-640.jpg">
-                    <figcaption>Sakura </figcaption>
+
                 </figure>
                 <p>
                     The Chick of Team 7. For most of the series Naruto has a comical unrequited crush on her, but she acts dismissive towards him while she's in love with Sasuke; However, over the course of the series she grows to appreciate and care for Naruto as a friend
@@ -202,7 +356,7 @@
                     other ninja in the series, she has no unique skills of her own, using only standard ninja techniques and her brains. As a result, during Part I, she mostly sits on the sidelines. After failing to prevent her only love, Sasuke's defection,
                     and seeing a badly injured Naruto in the hospital, she concludes that she can't leave things like this, and apprentices herself to Princes Tsunade with the intent of no longer being a burden and help bringing Sasuke back
                 </p>
-                <a href="#hiddenSk">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenSk">Read More</a>
                 <div id="hiddenSk">
                     <p>
                         In Part II, Sakura has picked up Super Strength and medical skills courtesy of Tsunade's Training from Hell, which turns her from The Load to a fine kunoichi of her calibre. Her growth is shown in the first major fight of the new series, joining forces
@@ -214,21 +368,22 @@
                         her full potential with the White Strength Seal and like her teacher Tsunade, gains a permanent mark on her forehead signifying mastery, although for the most part she is still relegated to being The Medic. Even though she participates
                         in the final battle against Kaguya, Naruto and Sasuke still do all the fighting while she serves as a distraction, and she realizes that she Can't Catch Up to them after all. By the story's end, her love for Sasuke is finally realized
                         and reciprocated; they marry after he is redeemed by Naruto and have one daughter together, Sarada Uchiha.
-
-                        <cite><a href="workCited.html#five">[5]</a> </cite></p>
+                        <a href="">Read Less</a>
+                    </p>
                 </div>
+                <cite><a href="workCited.html#five">[5]</a> </cite>
             </div>
 
             <div id="kakashi">
                 <h3>Hatake Kakashi</h3>
                 <figure class="position"><img src="images/Kakashi.jpg" alt="Kakashi" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11511016-1024-640.jpg">
-                    <figcaption>Kakashi </figcaption>
+
                 </figure>
                 <p>
                     Kakashi Hatake is a sneaky, snarky ninja who serves as sensei of Team 7, and also as The Big Guy and The Smart Guy. Prior to Team 7, he had failed every single applicant who had come before him. He's one of the strongest ninja in Konoha, and is never
                     seen without his dirty pornographic novel/manga.
                 </p>
-                <a href="#hiddenHk">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenHk">Read More</a>
                 <div id="hiddenHk">
                     <p>
                         Kakashi, for reasons that are at first unknown, has a Sharingan in his left eye, despite not being of the Uchiha (In a Gaiden prequel story, the eye was revealed to have been transplanted from his deceased friend Obito Uchiha, one of Sasuke's relatives).
@@ -242,58 +397,77 @@
                     <p>
                         In the Fourth Shinobi World War, he serves as the leader of the Third Division. Later he proved instrumental in the fight against his former comrade Obito, Madara, and the true mastermind behind the war, Kaguya. By war's end, Kakashi becomes the Sixth
                         Hokage and uses his new influence to pardon Sasuke of all his crimes. Two years later, despite losing his Sharingan, Kakashi proves himself a great leader by helping citizens on earth stay alive during the course of the movie.
-                        <cite><a href="workCited.html#six">[6]</a> </cite>
+                        <a href="">Read Less</a>
                     </p>
-
                 </div>
-
+                <cite>  <a href="workCited.html#six">[6]</a> </cite>
             </div>
 
             <div id=itachi>
                 <h3>Itachi Uchiha</h3>
                 <figure class="position"><img src="images/itachi.jpg" alt="Itachi" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11510998-1024-640.jpg">
-                    <figcaption>Itachi </figcaption>
+
                 </figure>
                 <p>
                     Uchiha Itachi is an S-Level criminal and a Konoha Missing-nin. He graduated at the top of his Academy class at 7, had mastered the Sharingan by age 8, became a Chuunin at 10 and was previously a Black Ops (ANBU in the Japanese versions) captain at the
                     age of only 13. At 18, he was even feared by Orochimaru. He left Konoha some years ago, after killing his whole clan except for Uchiha Sasuke, his brother. He is currently associated with Akatsuki. Orochimaru had planned to use Itachi's
                     body as a new container, but seeing as Itachi is powerful to such a degree that even Orochimaru fears him, it's easy to see why Orochimaru decided to leave Akatsuki and try his luck with Sasuke instead.
                 </p>
-                <a href="#hiddenIt">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenIt">Read More</a>
                 <div id="hiddenIt">
                     <p>
                         The reason Itachi killed his clan, and the reason he left Sasuke alive only to physically and mentally abuse him, still remains a mystery. When asked why by Sasuke, he replied "To see what I am capable of." He was until recently the sole person who possessed
                         the Mangekyō Sharingan as revealed in the manga. Hatake Kakashi has somehow developed a new kind of Mangekyō Sharingan in the manga. Kakashi's Mangekyō Sharingan appears different compared to Itachi's, and the similarity in power
                         of both Mangekyō Sharingan is still unknown. Itachi has told Sasuke that if Sasuke were to obtain the Mangekyō Sharingan, the people able to use it will total at three. It is unknown whom the third person Itachi is referring to.
-                    </p>
+                    </p><a href="">Read Less</a>
                 </div>
                 <cite><a href="workCited.html#nine">[9]</a> </cite>
             </div>
 
-            <!-- <div class="hinata">
+            <div class="hinata">
                 <h3>Hinata Hyuga</h3>
                 <p>
-<span><figure><img src="images/hinata.jpg" alt="Hinata" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11510967-1024-640.jpg"> <figcaption> </figcaption> </figure></span>
+                    <figure class="position"><img src="images/hinata.jpg" alt="Hinata" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11510967-1024-640.jpg"> </figure>
                 </p>
             </div>
-            <a href="#hiddenIt">Read More</a> <a href="">Read Less</a>
+
             <div>
                 <p>
-
+                    The former heiress of the Hyuga clan, later known as the "Byakugan Princess", she would eventually become the wife of Naruto Uzumaki and the mother of Boruto and Himawari Uzumaki. At first, she played the Shrinking Violet role of the main cast, being
+                    completely weak and non-confrontational. Perhaps her most notable trait is her huge crush on Naruto, who is completely oblivious about it. However, it's this admiration that spurs her on to become stronger.
                 </p>
+                <p>
+                    Hinata was born into the head family of the Hyuga clan and was expected to one day take it over. Since she started out extremely weak, this did not sit well with many others (namely Neji and her own father, Hiashi, though other extremely complicated reasons
+                    made it even worse for her). With the involvement of Kurenai and the aforementioned admiration of Naruto, she gradually develops as a warrior, becoming more confident.
+                </p> <a href="#hiddenHin">Read More</a>
+                <div id="hiddenHin">
+                    <p> Hinata, like all members of the Hyuga clan, has the kekkai genkai known as the Byakugan, characterized by the Prophet Eyes of its owners. It grants the user nearly-360-degree vision, as well as the ability to sense the flow of chakra
+                        in the human body. Hinata uses the Gentle Fist style of martial arts, a special combat style designed to take advantage of the Byakugan's unique abilities.
+                    </p>
+                    <p>
+                        In Part II, she goes out with Team Kakashi to search for Sasuke or Itachi, but that ends in failure when Itachi dies and Tobi takes Sasuke away. In Pain's invasion, she intervenes to save Naruto from Pain and finally tells him that she loves him. Pain
+                        defeats her and nearly kills her, triggering Naruto going into six-tailed mode, but she survives with Sakura's help. When the Shinobi Alliance marches against Madara, she is placed in the Second Division alongside her cousin Neji,
+                        Karui, and Kurotsuchi.
+                    </p>
+                    <p>
+                        During the Fourth Shinobi World War, Hinata's popularity and importance in the story increased significantly: she was able to snap Naruto out of his Heroic BSoD after the tragic death of her cousin Neji and inspires him to fight on. Later she and Naruto
+                        become the main stars of the canon movie The Last: Naruto the Movie, where their love for each other is fully explored and finally realized, ending with them marrying and having two beautiful children, Boruto and Himawari Uzumaki.
+                        She appears again as a loving and dedicated mother in her son's series, Boruto, and its movie version.
+                        <a href="">Read Less</a> </p>
+                </div>
                 <cite><a href="workCited.html#ten">[10]</a> </cite>
-            </div> -->
+            </div>
 
             <div id="neji">
                 <h3>Neji Hyuga</h3>
                 <figure class="position"><img src="images/Neji.jpg" alt="Neji" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11511003-1024-768.jpg">
-                    <figcaption>Neji </figcaption>
+
                 </figure>
                 <p>
                     Neji is hailed as one of the foremost prodigies of his time — indeed, he is perhaps the greatest practitioner of the Hyuga's fighting style that there is. If he weren't a member of the branch family, he'd probably be heading up the clan someday. However,
                     his pedigree combined with his knowledge of past events fills him with a seething hatred of the main family.
                 </p>
-                <a href="#hiddenNj">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenNj">Read More</a>
                 <div id="hiddenNj">
                     <p>
                         In the Hyuga clan, there is a branch family and a main family. The branch family exists to serve the main family and tend to their needs. When a branch member is young, a seal is placed on their forehead to keep them from trying to kill the main family
@@ -315,24 +489,23 @@
                         In Part II, he is the only member of the Konoha 11 to become a Jonin. He later tags along with his team to back up Team Kakashi in the Kazekage Rescue Mission arc. In the Fourth Shinobi World War, he is part of the Second Division, considered to be the
                         Shinobi Alliance's up-close fighting division, along with Hinata, Karui, and Kurotsuchi. Tragically, Neji loses his life during the war in trying to protect Naruto and Hinata but he dies understanding why his father did what he
                         did and ultimately becomes a martyr for the Shinobi alliance in not giving up. His name goes on to influence the naming of Naruto and Hinata's first child, Boruto, with his grave being visited occasionally by the Uzumaki family.
+                        <a href="">Read Less</a>
                     </p>
-                    <cite><a href="workCited.html#eleven">[11]</a> </cite>
                 </div>
-
-
+                <cite><a href="workCited.html#eleven">[11]</a> </cite>
             </div>
 
             <div id="gaara">
                 <h3>Gaara</h3>
                 <figure class="position"><img src="images/Gaara.jpg" alt="Gaara" srcset="https://images2.fanpop.com/image/photos/11500000/Naruto-Shippuden-wallpapers-naruto-11510961-1024-640.jpg">
-                    <figcaption> Gaara</figcaption>
+
                 </figure>
                 <p>Gaara of the Sand Waterfall is a young shinobi from the Hidden Sand Village who makes his first appearance in the Chunin Exam arc as Naruto's Evil Counterpart. Like Naruto, Gaara had a Tailed Beast, the maniacal sand spirit Shukaku, sealed
                     in him by his father, the Fourth Kazekage, before he was even born. The Kazekage's intent was for him to become a weapon for the village, but after several years declared the experiment a failure and repeatedly tried to have the child
                     assassinated. However, Shukaku's power protected Gaara from all harm. Gaara eventually grew to enjoy killing the assassins his father sent after him, reasoning that only through killing could he validate his own existence.
 
                 </p>
-                <a href="#hiddenGa">Read More</a> <a href="">Read Less</a>
+                <a href="#hiddenGa">Read More</a>
                 <div id="hiddenGa">
                     <p>
                         Gaara speaks in a dull monotone at all times except when he's in a killing frenzy. (This is later explained by the fact that Shukaku eats away at his consciousness when he sleeps, so he's become a chronic insomniac.) Even after his Heel–Face Turn, he
@@ -351,13 +524,17 @@
                     <p>
                         Throughout the war, Gaara has proven himself to be worthy of the Kazekage name and then some, first by defeating and reconciling with his father, the previous Kazekage, and then taking down Gengetsu Hozuki, the Second Mizukage. He goes on to fight Madara
                         Uchiha with the other four Kage but fail despite their best efforts. After getting a second wind, Gaara rushes where Naruto is confronting the Ten-Tails and Madara, being instrumental in keeping Naruto alive and safe throughout
-                        the rest of the war.
+                        the rest of the war.<a href="">Read Less</a>
                     </p>
-                    <cite><a href="workCited.html#twelve">[12]</a> </cite>
                 </div>
+                <cite><a href="workCited.html#twelve">[12]</a> </cite>
             </div>
         </div>
     </section>
+    <div class="images">
+        <img class="painLeft" src="images/pain.png" alt="">
+        <img class="gaaraRight" src="images/gaara.png" alt="">
+    </div>
     <section id="jutsu">
         <h2> Jutsu Guide </h2>
 
@@ -408,16 +585,52 @@
                             No rank: Jutsu relying on the unique abilities of the users (Kekkei genkai, Hiden jutsu)
                             <cite><a href="workCited.html#thirteen">[13]</a> </cite>
                         </li>
-
                     </ul>
                 </li>
             </ul>
         </div>
-
     </section>
     <section id="keke">
         <h2> Keke-genkai (Bloodline) </h2>
+        <figure class="position">
+            <img src="images/dojutsu.jpg" alt="">
+        </figure>
+        <div>
+            <h3> Overview</h3>
+            <p> Kekkei genkai typically come in the form of dōjutsu or combined nature transformations. Dōjutsu are abilities concentrated in the eye, and combined nature transformations are ninjutsu that utilize two nature transformations. Ninjutsu that
+                utilize three nature transformations are likewise referred to as kekkei tota.
+            </p>
 
+            <p> Compared to dōjutsu which are almost exclusively passed down through clans, nature transformation kekkei genkai seem to appear in individuals with no known relation. Lava Release, a combination of fire and earth-based chakra, has appeared
+                in ninja from Kirigakure, Iwagakure, and Kumogakure.
+            </p>
+            <p>
+                Since Kekkei Genkai require the genetic prerequisite to form these abilities, they are unable to be copied by others. However, there have been attempts to gain the unique abilities of kekkei genkai through transplantation and genetic experimentation.
+                Dōjutsu can be transplanted into the body of another person, like with Ao and his Byakugan or Kakashi and his Sharingan. As a downside, activating and using a dōjutsu you didn't naturally develop requires much more chakra usage.
+            </p>
+            <p>
+                Chakra elements can also be passed down to people outside of the clan, such as Yamato being subjected to DNA re-modification by Orochimaru who wanted to acquire Wood Release. However, Yamato's skill in using it is not nearly as powerful as the originator
+                Hashirama Senju, and the risk of such process was that Yamato was the only one of the sixty test subjects to survive.
+            </p>
+        </div>
+        <h3>Dojutsu</h3>
+        <dl>
+            <dt>Sharingan</dt>
+            <dd>The Sharingan is the dōjutsu kekkei genkai of the Uchiha clan that appears selectively among its members. It is regarded as one of the "Three Great Dōjutsu", the others being the Byakugan and the Rinnegan.</dd>
+            <dt>Mangekyō Sharingan</dt>
+            <dd>The Mangekyō Sharingan is distinguished from a normal Sharingan by its appearance, which changes the form of the tomoe seal. The exact design differs for each user, though all resemble pinwheels. It is initially awakened by the trauma suffered
+                from witnessing the death of someone close to the user. Uchiha have historically misunderstood this criteria as the user needing to be responsible for the person's death, and for that reason they developed the practice of killing their
+                closest friends in order to gain the Mangekyō Sharingan.
+            </dd>
+            <dt>Byakugan</dt>
+            <dd>The Byakugan is the dōjutsu kekkei genkai of the Hyūga and Ōtsutsuki clans, inherited from Kaguya Ōtsutsuki. It is regarded as one of the "Three Great Dōjutsu", the others being the Sharingan and the Rinnegan.
+            </dd>
+            <dt>Rinnegan</dt>
+            <dd>
+                The Rinnegan is reputed as the most exalted eye amongst the "Three Great Dōjutsu", the others being the Sharingan and the Byakugan. It is said that in times of disorder, one who wields the Rinnegan is sent down from the heavens to become either a "God
+                of Creation" who will calm the world or a "God of Destruction" who will reduce everything to nothingness. The Rinnegan is characterised by a ripple pattern that spreads over the eyeball.
+            </dd>
+        </dl>
         <div>
             <cite><a href="workCited.html#fourteen">[14]</a> </cite>
         </div>
@@ -447,6 +660,16 @@
                 <li><a href="../Akatsuki/akatsuki.html">Akatsuki</a> </li>
 
             </ul>
+        </div>
+
+        <div id="form">
+            <form action="POST">
+                <label for="textBox"> Please type your recomendation about our website project</label>
+                <br>
+                <textarea rows="5" cols="20" type="text" name="request" placeholder="Type your request and compaint" id="textBox"></textarea>
+                <br>
+                <button>submit </button>
+            </form>
         </div>
         <div class="footerSocial">
             <p>Stay in Touch</p>
