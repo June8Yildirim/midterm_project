@@ -5,6 +5,11 @@ body {
     font-size: 14px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .socialRes {
     position: fixed;
     right: 2vw;
@@ -74,45 +79,77 @@ body {
 /* ========================================================================= */
 
 
+/* ===================banners================== */
+
+.leftBanner {
+    position: absolute;
+    top: 1em;
+    height: 200%;
+    width: 20em;
+    left: 9em;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+.rightBanner {
+    position: absolute;
+    top: 136em;
+    height: 200%;
+    left: 9em;
+    width: 14.7%;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+.sakuraVSshin {
+    position: relative;
+    left: 20em;
+    top: -10em;
+}
+
+
+/* ======================== */
+
+
 /* clan features  */
 
 #clans {
-    margin-left: 10em;
     width: 50vw;
     position: relative;
-    left: 20em;
+    left: 30em;
+    top: 17em;
 }
 
 .nameOfClan {
-    font-family: 'poppins';
     font-weight: 800;
     font-size: 1.4em;
     position: relative;
-    top: 18vh;
+    top: 10vh;
+    margin-bottom: 2em;
 }
 
 .clanSpecialities {
-    font-family: 'open sans';
-    height: 20vh;
     position: relative;
-    top: 20vh;
+    top: 5vh;
+    text-align: center;
     text-indent: 2em;
+    text-align: left;
 }
 
 .clanImage {
     position: relative;
     left: 50vw;
-    top: -12vh;
+    bottom: 5em;
 }
 
 .clanImage>img {
     height: 30vh;
-    /* width: 30vw; */
 }
 
 .clanImage>img:hover {
     height: 60vh;
-    /* width: 30vw; */
 }
 
 #seju,
@@ -128,5 +165,5 @@ body {
 #inuzika,
 #raikage,
 #hurano {
-    margin-top: -15em;
+    margin-top: -10em;
 }

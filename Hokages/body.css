@@ -20,10 +20,10 @@ body {
 
 .socialRes img {
     margin-left: -1.6em;
-    /* width: 3em; */
     margin-right: -1.3em;
     background-color: rgb(82, 32, 219);
-    /* z-index: -1; */
+    z-index: 10;
+    border-radius: 12px;
 }
 
 .socialRes img:hover {
@@ -45,6 +45,20 @@ body {
 
 
 /* ================= */
+
+.left_banner {
+    position: fixed;
+    top: 20vh;
+    left: 2vw;
+    z-index: -5;
+}
+
+.right_banner {
+    position: fixed;
+    top: 20vh;
+    left: 80vw;
+    z-index: -5;
+}
 
 section {
     font-weight: 300;
@@ -84,42 +98,3 @@ section {
 .Kage h2 {
     text-align: center;
 }
-
-
-/* ===============sidebar================== */
-
-.sideBar {
-    position: fixed;
-    left: 1vw;
-    top: 20vh;
-    overflow: hidden;
-    width: 10vw;
-    cursor: pointer;
-    height: auto;
-    line-height: auto;
-    border-radius: 20px;
-    background-color: #8ce913;
-}
-
-.sideBarContent a {
-    text-decoration: none;
-}
-
-.sideBarContent li {
-    display: none;
-}
-
-.sideBar:hover li {
-    display: block;
-}
-
-.sideBar:hover ul li ul {
-    display: none;
-}
-
-.sideBar:hover li:hover ul {
-    display: block;
-}
-
-
-/* ===============sidebar================== */

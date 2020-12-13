@@ -10,9 +10,23 @@ body {
     text-indent: 1em;
     position: relative;
     top: 100px;
-    left: 32em;
+    left: 33em;
     width: 50vw;
     text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    padding: 3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+div li {
+    list-style-type: none;
+    padding-left: 1em;
 }
 
 
@@ -59,6 +73,60 @@ body {
 /* ================= */
 
 
+/* ======banner images============== */
+
+.sishui_susanoo {
+    width: 80%;
+    top: 10em;
+    left: 26em;
+    float: left;
+    z-index: -3;
+    overflow: auto;
+    position: absolute;
+    background: transparent url(img/play-button.png) no-repeat;
+    background-position: center;
+}
+
+.madara_susanoo {
+    width: 60%;
+    top: 80em;
+    left: 2em;
+    float: left;
+    z-index: -3;
+    overflow: auto;
+    position: absolute;
+    background: transparent url(img/play-button.png) no-repeat;
+    background-position: center;
+}
+
+.itachi_susanoo {
+    width: 80%;
+    top: 260em;
+    left: -32em;
+    float: left;
+    z-index: -3;
+    overflow: auto;
+    position: absolute;
+    background: transparent url(img/play-button.png) no-repeat;
+    background-position: center;
+}
+
+.sasuke_susanoo {
+    width: 100%;
+    top: 370em;
+    left: -40em;
+    float: left;
+    z-index: -3;
+    overflow: auto;
+    position: absolute;
+    background: transparent url(img/play-button.png) no-repeat;
+    background-position: center;
+}
+
+
+/* ============================================ */
+
+
 /* images location and desinging */
 
 .totalBijuus img {
@@ -76,9 +144,8 @@ body {
 .rightFloat {
     float: right;
     margin: 1em 0 .4em .6em;
-    padding-left: -4em;
     clear: both;
-    padding: 1em;
+    padding-left: 1em;
     border-style: none none solid solid;
     border-color: rgb(6, 172, 42);
 }
@@ -87,7 +154,7 @@ body {
 /*the right side floats images regular size */
 
 .rightFloat img {
-    width: 10vw;
+    width: 12vw;
     margin-left: -2em;
 }
 
@@ -155,4 +222,19 @@ figcaption {
     position: relative;
     width: 30vw;
     z-index: 10;
+}
+
+#ichibi,
+#nibi,
+#sanbi,
+#yonbi,
+#gobi,
+#rokubi,
+#kyubi,
+#jubi {
+    margin-top: 7em;
+}
+
+#hachibi {
+    margin-top: 20em;
 }

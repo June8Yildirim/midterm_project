@@ -10,10 +10,14 @@
      padding: 0;
  }
  
+ a {
+     color: ;
+ }
+ 
  .navbarContainer {
-     position: absolute;
+     position: fixed;
      top: 0;
-     left: 25vw;
+     left: 20vw;
      width: auto;
      display: block;
      transition: .6s;
@@ -38,7 +42,6 @@
  .navbarContainer li a {
      display: block;
      color: #8b9dc3;
-     font-weight: 600;
      text-decoration: none;
  }
  
@@ -55,54 +58,3 @@
      display: block;
      border-radius: 12px;
  }
- /* navbar desinging
-
-.navbarContainer {
-   left: 25vw;
-   position: absolute;
-   width: auto;
-   overflow: visible;
-   z-index: 4;
-}
-
-.navbarContainer ul {
-   list-style: none;
-}
-
-.navbarContainer li {
-   background-color: #c7d0d3;
-   width: 150px;
-   height: 40px;
-   line-height: 40px;
-   text-align: center;
-   float: left;
-   position: relative;
-}
-
-.navbarContainer li ul li {
-   left: -3em;
-}
-
-.navbarContainer a {
-   text-decoration: none;
-   color: #8D99AE;
-}
-
-.navbarContainer li:hover {
-   background-color: #9D0208;
-}
-
-.navbarContainer li ul {
-   display: none;
-}
-
-.navbarContainer li:hover ul {
-   display: block;
-}
-
-.navbarContainer a:hover {
-   font-weight: bold;
-   background-color: #D90429;
-   font-size: 16px;
-   padding: .6em 2em;
-} */

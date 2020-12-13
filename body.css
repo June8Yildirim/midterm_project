@@ -3,6 +3,11 @@ body {
     font-size: 14px;
 }
 
+h1 {
+    text-align: center;
+    margin: 3em 0;
+}
+
 section {
     font-weight: 300;
     text-indent: 1em;
@@ -14,40 +19,24 @@ section {
 }
 
 
-/* =========forms */
-
-.survey {
-    position: absolute;
-    top: 10em;
-    left: 10em;
-}
-
-.survey p {
-    font-weight: 800;
-}
-
-
-/* ================= */
-
-
 /* ============== */
 
 .narutoRight {
     position: absolute;
     height: 60%;
-    top: 80vh;
+    top: 40vh;
     left: 75vw;
 }
 
 .narutoRight+cite {
     position: absolute;
-    top: 80vh;
+    top: 40vh;
     left: 80vw;
 }
 
 .sasukeLeft {
     position: absolute;
-    top: 80vh;
+    top: 40vh;
     left: 3em;
     height: 60%;
 }
@@ -55,26 +44,26 @@ section {
 .sasukeLeft+cite {
     position: absolute;
     left: 10em;
-    top: 80vh;
+    top: 40vh;
 }
 
 .sishuiRight {
     position: absolute;
     height: 60%;
-    top: 200vh;
+    top: 120vh;
     left: 75vw;
 }
 
 .itachiLeft {
     position: absolute;
-    top: 200vh;
+    top: 120vh;
     left: 3em;
     height: 60%;
 }
 
 .sakuraRight {
     position: absolute;
-    top: 270vh;
+    top: 200vh;
     left: 3em;
     height: 60%;
 }
@@ -82,28 +71,21 @@ section {
 .hinataLeft {
     position: absolute;
     height: 60%;
-    top: 270vh;
+    top: 200vh;
     left: 75vw;
-}
-
-.nejiLeft {
-    position: absolute;
-    top: 360vh;
-    left: 10em;
-    height: 60%;
 }
 
 .painLeft {
     position: absolute;
     height: 60%;
-    top: 420vh;
+    top: 280vh;
     left: 10em;
     z-index: -1;
 }
 
 .gaaraRight {
     position: absolute;
-    top: 420vh;
+    top: 280vh;
     height: 60%;
     z-index: -1;
     left: 75vw;
@@ -141,15 +123,31 @@ section {
 
 .socialRes img {
     margin-left: -1.6em;
-    /* width: 3em; */
+    border-radius: 12px;
     margin-right: -1.3em;
     background-color: rgb(82, 32, 219);
-    /* z-index: -1; */
+    z-index: 10;
 }
 
 .socialRes img:hover {
     width: 180%;
 }
+
+
+/* ====================gifs================== */
+
+.sha_gifs {
+    position: relative;
+    left: 3em;
+    top: -5em;
+}
+
+.sha_gifs+img {
+    width: 3em;
+}
+
+
+/* ================================================= */
 
 
 /* ===============sidebar================== */

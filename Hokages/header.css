@@ -1,90 +1,108 @@
-/*  clan symbols version */
+ /* navbar desinging  */
+ 
+ body {
+     font-family: 'Open Sans';
+     font-size: 16px;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .navbarContainer {
+     position: absolute;
+     top: 0;
+     left: 25vw;
+     width: auto;
+     display: block;
+     transition: .6s;
+     padding: 3em 5em;
+     z-index: 100;
+ }
+ 
+ .navbarContainer ul {
+     list-style-type: none;
+ }
+ 
+ .navbarContainer li {
+     text-align: center;
+     line-height: 3em;
+     float: left;
+     width: 10em;
+     border-radius: 12px;
+     margin-right: 4px;
+     background-color: #c7d0d3;
+ }
+ 
+ .navbarContainer li a {
+     display: block;
+     color: #8b9dc3;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .navbarContainer li a:hover {
+     border-radius: 12px;
+     background-color: #ff0000;
+ }
+ 
+ .navbarContainer li ul li {
+     display: none;
+ }
+ 
+ ul li:hover ul li {
+     display: block;
+     border-radius: 12px;
+ }
+ /* navbar desinging
 
 .navbarContainer {
-    position: absolute;
-    width: 60vw;
-    left: 25vw;
-    right: 25vw;
-    background-color: #fdb750;
+   left: 25vw;
+   position: absolute;
+   width: auto;
+   overflow: visible;
+   z-index: 4;
 }
 
 .navbarContainer ul {
-    list-style-type: none;
+   list-style: none;
 }
 
 .navbarContainer li {
-    display: block;
-    float: left;
-    padding-right: 6em;
-    text-align: center;
-    height: 2.5em;
-    line-height: 1.5em;
-    font-family: 'montserrat';
-    color: #000000;
+   background-color: #c7d0d3;
+   width: 150px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   float: left;
+   position: relative;
+}
+
+.navbarContainer li ul li {
+   left: -3em;
 }
 
 .navbarContainer a {
-    text-decoration: none;
-    color: #000;
+   text-decoration: none;
+   color: #8D99AE;
 }
 
-.navbarContainer .konoha:hover {
-    background-image: url("Country/countrySign/konoho.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
+.navbarContainer li:hover {
+   background-color: #9D0208;
 }
 
-.navbarContainer .lighting:hover {
-    background-image: url("Country/countrySign/lighting.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
+.navbarContainer li ul {
+   display: none;
 }
 
-.navbarContainer .rain:hover {
-    background-image: url("Country/countrySign/rain.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
+.navbarContainer li:hover ul {
+   display: block;
 }
 
-.navbarContainer .rock:hover {
-    background-image: url("Country/countrySign/rock.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
-}
-
-.navbarContainer .water:hover {
-    background-image: url("Country/countrySign/water.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
-}
-
-.navbarContainer .akatsuki:hover {
-    background-image: url("Country/countrySign/akatsuki.jpg");
-    background-repeat: no-repeat;
-    margin-left: -40px;
-    margin-top: -5px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 30px;
-    color: red;
-}
+.navbarContainer a:hover {
+   font-weight: bold;
+   background-color: #D90429;
+   font-size: 16px;
+   padding: .6em 2em;
+} */
