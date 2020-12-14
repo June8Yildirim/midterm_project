@@ -1,21 +1,20 @@
 .footerContainer {
     position: relative;
-    overflow: scroll;
     background-color: #9e9d9aef;
     width: 100vw;
     bottom: 0;
     height: 13vw;
-    top: 20em;
+    top: 12em;
+    font-size: 11px;
     border-top: 4px solid;
-    padding-left: 8em;
-    font-family: 'Open Sans';
-    font-size: 13px;
+    padding-left: 5em;
     line-height: 1.6;
 }
 
 .footerAboutUs {
     position: absolute;
     width: 44vw;
+    top: 5em;
 }
 
 .footerAboutUs p:first-of-type {
@@ -27,6 +26,7 @@
 
 .footermenu {
     position: absolute;
+    top: 3em;
     left: 54vw;
     line-height: 1.8;
 }
@@ -41,20 +41,19 @@
     color: #000;
 }
 
+.footermenu p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
 
 /* ================================================== */
 
-.footerSocial {
-    position: absolute;
-    right: 16vw;
-    font-weight: bold;
-}
-
 #form {
     position: absolute;
-    right: 23vw;
-    top: .7em;
-    width: 250px;
+    right: 33vw;
+    top: 1em;
     font-size: 12;
     font-weight: bold;
 }
@@ -62,5 +61,6 @@
 .footerSocial {
     position: absolute;
     right: 16vw;
+    top: 5em;
     font-weight: bold;
 }
