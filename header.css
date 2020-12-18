@@ -51,7 +51,7 @@
      display: none;
  }
  
- ul li:hover ul li {
+ ul .firstLevel:hover ul li {
      display: block;
      border-radius: 12px;
  }

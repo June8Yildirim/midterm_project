@@ -38,7 +38,7 @@ h1 {
 }
 
 .socialRes img:hover {
-    width: 180%;
+    width: 110%;
 }
 
 
@@ -94,8 +94,8 @@ h1 {
 
 .leftBanner {
     position: absolute;
-    top: 1em;
-    height: 200%;
+    top: 30em;
+    /* height: 200%; */
     width: 20em;
     left: 9em;
     z-index: - 100;
@@ -105,10 +105,10 @@ h1 {
 
 .rightBanner {
     position: absolute;
-    top: 136em;
-    height: 200%;
+    top: 150em;
+    /* height: 200%; */
     left: 9em;
-    width: 14.7%;
+    width: 20em;
     z-index: - 100;
     overflow: hidden;
     background: transparent url(img/play-button.png) repeat;
@@ -138,6 +138,7 @@ h1 {
     font-size: 1.4em;
     position: relative;
     top: 10vh;
+    padding-bottom: 2em;
     margin-bottom: 2em;
 }
 
@@ -151,8 +152,9 @@ h1 {
 
 .clanImage {
     position: relative;
-    left: 50vw;
+    right: -50vw;
     bottom: 5em;
+    margin-right: 50vw;
 }
 
 .clanImage>img {

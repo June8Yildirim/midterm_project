@@ -29,6 +29,10 @@ div li {
     padding-left: 1em;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 
 /* Managing social bar */
 
@@ -54,7 +58,7 @@ div li {
 }
 
 .socialRes img:hover {
-    width: 180%;
+    width: 110%;
 }
 
 
@@ -128,7 +132,7 @@ div li {
 
 .rightFloat {
     float: right;
-    margin: 1em 0 .4em .6em;
+    margin: -1em 0 .4em .6em;
     clear: both;
     padding-left: 1em;
     border-style: none none solid solid;
@@ -139,7 +143,7 @@ div li {
 /*the right side floats images regular size */
 
 .rightFloat img {
-    width: 12vw;
+    width: 10vw;
     margin-left: -2em;
 }
 

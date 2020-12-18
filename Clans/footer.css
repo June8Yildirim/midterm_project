@@ -1,7 +1,7 @@
 .footerContainer {
     position: relative;
     background-color: #9e9d9aef;
-    width: 100vw;
+    width: 96vw;
     bottom: 0;
     height: 13vw;
     top: 12em;
@@ -49,14 +49,6 @@
 
 
 /* ================================================== */
-
-#form {
-    position: absolute;
-    right: 33vw;
-    top: 1em;
-    font-size: 12;
-    font-weight: bold;
-}
 
 .footerSocial {
     position: absolute;

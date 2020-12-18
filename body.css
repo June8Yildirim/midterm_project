@@ -14,9 +14,45 @@ section {
     width: 50vw;
     position: relative;
     left: 25vw;
+    min-left: 5vw;
     text-align: justify;
     top: 10vh;
 }
+
+
+/* #testScript {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    margin: 0;
+    padding: 10vmin;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50vh;
+    vertical-align: middle;
+    z-index: 1000000;
+}
+
+#testScript2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    margin: 0;
+    padding: 10vmin;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50vh;
+    vertical-align: middle;
+    z-index: 1000000;
+} */
 
 
 /* ============== */
@@ -64,7 +100,7 @@ section {
 .sakuraRight {
     position: absolute;
     top: 200vh;
-    left: 3em;
+    left: 1em;
     height: 60%;
 }
 
@@ -79,7 +115,7 @@ section {
     position: absolute;
     height: 60%;
     top: 280vh;
-    left: 10em;
+    left: 3em;
     z-index: -1;
 }
 
@@ -97,6 +133,21 @@ section {
 #jutsu {
     position: relative;
     top: 10em;
+}
+
+.jutsuLink {
+    list-style-type: none;
+}
+
+.jutsuLink li {
+    left: 1em;
+    position: relative;
+}
+
+.jutsuLink li ul {
+    left: 1em;
+    position: relative;
+    list-style-type: square;
 }
 
 #keke {
@@ -130,7 +181,7 @@ section {
 }
 
 .socialRes img:hover {
-    width: 180%;
+    width: 110%;
 }
 
 
@@ -191,9 +242,15 @@ section {
 
 /* ============ Characters images================= */
 
-div div {
+.characters div {
     position: relative;
     top: 1em;
+    margin-bottom: 2em;
+}
+
+.characters div>p>a>h3 {
+    top: 6em;
+    position: relative;
 }
 
 .position {
@@ -215,11 +272,11 @@ div div {
 }
 
 #gaara {
-    margin-top: 10em;
+    margin-top: 14em;
 }
 
 #itachi {
-    margin-top: 6em;
+    margin-top: 12em;
 }
 
 #keke .position,
@@ -234,7 +291,23 @@ div div {
     margin: 0;
     padding: 0%;
     left: 0;
-    /* z-index: -1; */
+}
+
+dt {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table {
+    float: left;
+    position: relative;
+    margin: 1em;
+}
+
+table img {
+    position: relative;
+    width: 10em;
+    float: left;
 }
 
 

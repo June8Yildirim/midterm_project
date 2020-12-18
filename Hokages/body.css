@@ -31,33 +31,22 @@ body {
 }
 
 
-/* =========forms */
-
-.survey {
-    position: absolute;
-    top: 10em;
-    left: 10em;
-}
-
-.survey p {
-    font-weight: 800;
-}
-
-
 /* ================= */
 
 .left_banner {
     position: fixed;
-    top: 20vh;
+    top: 10vh;
     left: 2vw;
     z-index: -5;
+    opacity: .6;
 }
 
 .right_banner {
     position: fixed;
-    top: 20vh;
+    top: 10vh;
     left: 80vw;
     z-index: -5;
+    opacity: .6;
 }
 
 section {
@@ -88,11 +77,8 @@ section {
 }
 
 .Kage .secondLine {
-    margin-left: 2em;
-}
-
-.Kage .thirdLine {
-    margin-left: 1.7em;
+    margin-left: 1em;
+    margin-right: .7em;
 }
 
 .Kage h2 {
