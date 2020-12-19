@@ -125,7 +125,7 @@ div li {
 /*the right side floats images hovering size */
 
 .rightFloat img:hover {
-    width: 40vw;
+    width: 20vw;
 }
 
 
@@ -151,7 +151,7 @@ div li {
 /*the left side floats images hovering size */
 
 .leftFloat img:hover {
-    width: 40vw;
+    width: 20vw;
 }
 
 

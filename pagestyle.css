@@ -19,23 +19,6 @@ section {
     top: 15vh;
 }
 
-#testScript {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 2em;
-    margin: 0;
-    padding: 10vmin;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    line-height: 50vh;
-    vertical-align: middle;
-    z-index: 1000000;
-}
-
 
 /* ============== */
 
@@ -139,45 +122,6 @@ section {
 }
 
 
-/* ===============sidebar================== */
-
-.sideBar {
-    position: fixed;
-    left: 1vw;
-    top: 20vh;
-    overflow: hidden;
-    width: 10vw;
-    cursor: pointer;
-    height: auto;
-    line-height: auto;
-    border-radius: 20px;
-    background-color: #8ce913;
-}
-
-.sideBarContent a {
-    text-decoration: none;
-}
-
-.sideBarContent li {
-    display: none;
-}
-
-.sideBar:hover li {
-    display: block;
-}
-
-.sideBar:hover ul li ul {
-    display: none;
-}
-
-.sideBar:hover li:hover ul {
-    display: block;
-}
-
-
-/* ===============sidebar================== */
-
-
 /* ============ Characters images================= */
 
 .characters div {
@@ -254,69 +198,82 @@ table img {
 
 /*================Hidden and Showing Extra Info */
 
-#hiddenNa {
-    display: none;
-}
-
-#hiddenNa:target {
-    display: initial;
-}
-
-#hiddenSa {
-    display: none;
-}
-
-#hiddenSa:target {
-    display: initial;
-}
-
-#hiddenSk {
-    display: none;
-}
-
-#hiddenSk:target {
-    display: initial;
-}
-
-#hiddenHk {
-    display: none;
-}
-
-#hiddenHk:target {
-    display: initial;
-}
-
-#hiddenIt {
-    display: none;
-}
-
-#hiddenIt:target {
-    display: initial;
-}
-
-#hiddenNj {
-    display: none;
-}
-
-#hiddenNj:target {
-    display: initial;
-}
-
-#hiddenGa {
-    display: none;
-}
-
-#hiddenGa:target {
-    display: initial;
-}
-
+#hiddenNa,
+#hiddenSa,
+#hiddenSk,
+#hiddenHk,
+#hiddenIt,
+#hiddenNj,
+#hiddenGa,
 #hiddenHin {
     display: none;
 }
 
+#hiddenNa:target,
+#hiddenSa:target,
+#hiddenSk:target,
+#hiddenHk:target,
+#hiddenIt:target,
+#hiddenNj:target,
+#hiddenGa:target,
 #hiddenHin :target {
     display: initial;
 }
 
 
 /* ===================== */
+
+#testScript {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    margin: 0;
+    padding: 10vmin;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50vh;
+    vertical-align: middle;
+    z-index: 1000000;
+}
+
+#click {
+    position: absolute;
+    top: 32vh;
+    opacity: 1;
+    left: 16em;
+    width: 8em;
+    border-radius: 20em;
+    padding: .5em;
+}
+
+.logo {
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    opacity: .6;
+}
+
+.logo figure>img {
+    width: 20em;
+}
+
+#explainer {
+    width: 20em;
+    height: auto;
+    line-height: 1.5em;
+    color: red;
+    border: 1px dashed #0034ab;
+    background-color: rgba(200, 255, 50, .5);
+}
+
+
+/* ============================= */
+
+#work-cited {
+    top: 5vh;
+    margin-bottom: 10vh;
+}

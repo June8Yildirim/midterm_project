@@ -11,41 +11,6 @@
  }
  /* =========logo explainer=========== */
  
- #click {
-     position: relative;
-     top: 14vh;
-     opacity: 1;
-     left: 20em;
-     width: 8em;
-     border-radius: 20em;
-     padding: .5em;
- }
- 
- .logo {
-     position: absolute;
-     top: -400vh;
-     left: -22vw;
-     opacity: .6;
- }
- 
- .logo figure>img {
-     width: 20em;
- }
- 
- #explainer {
-     position: absolute;
-     top: -380vh;
-     left: -27em;
-     width: 20em;
-     height: auto;
-     line-height: 1.5em;
-     color: red;
-     border: 1px dashed #0034ab;
-     background-color: rgba(200, 255, 50, .5);
- }
- /* ============================= */
- /* ==================navbar========== */
- 
  .navbarContainer {
      position: absolute;
      top: 0;
