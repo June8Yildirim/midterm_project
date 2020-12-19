@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    width: 10em;
+    background-color: #c3e0e5;
+    height: -20em;
+}
+
+
+/* =========forms */
+
+form {
+    position: relative;
+    left: 3em;
+}
+
+#secondForm {
+    position: relative;
+    top: -65vh;
+    left: 45vw;
+    /* float: left; */
+}
+
+#e_mail,
+#firstName,
+#lastName,
+#pass,
+select {
+    width: 15em;
+    position: relative;
+    left: 22.5em;
+    top: -1.5em;
+}
+
+label {
+    display: inline-block;
+    width: 22em;
+}
+
+table th {
+    width: 3em;
+    padding: 1em;
+    border: 1px dashed aliceblue;
+}
+
+tr th {
+    width: 2vw;
+}
+
+td {
+    padding-left: 4em;
+    border: 1px dashed aliceblue;
+}
+
+table button {
+    position: relative;
+    top: 40vh;
+}
+
+
+/* ===========LOGO========== */
+
+.leftEyes {
+    position: relative;
+    width: 8em;
+    left: 10vw;
+    top: 3vh;
+    opacity: 0.4;
+}
+
+.rightEyes {
+    position: relative;
+    width: 8em;
+    top: -8vh;
+    left: 80vw;
+    opacity: 0.4;
+}
+
+
+/* =============================== */

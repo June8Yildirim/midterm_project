@@ -1,0 +1,119 @@
+ /* navbar desinging  */
+ 
+ body {
+     font-family: 'Open Sans';
+     font-size: 16px;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ /* =========logo explainer=========== */
+ 
+ #click {
+     position: relative;
+     top: 14vh;
+     opacity: 1;
+     left: 20em;
+     width: 8em;
+     border-radius: 20em;
+     padding: .5em;
+ }
+ 
+ .logo {
+     position: absolute;
+     top: -400vh;
+     left: -22vw;
+     opacity: .6;
+ }
+ 
+ .logo figure>img {
+     width: 20em;
+ }
+ 
+ #explainer {
+     position: absolute;
+     top: -380vh;
+     left: -27em;
+     width: 20em;
+     height: auto;
+     line-height: 1.5em;
+     color: red;
+     border: 1px dashed #0034ab;
+     background-color: rgba(200, 255, 50, .5);
+ }
+ /* ============================= */
+ /* ==================navbar========== */
+ 
+ .navbarContainer {
+     position: absolute;
+     top: 0;
+     left: 25vw;
+     width: auto;
+     display: block;
+     transition: .6s;
+     padding: 3em 5em;
+     z-index: 100;
+ }
+ 
+ .navbarContainer ul {
+     list-style-type: none;
+ }
+ 
+ .navbarContainer li {
+     text-align: center;
+     line-height: 3em;
+     float: left;
+     width: 10em;
+     border-radius: 12px;
+     margin-right: 4px;
+     background-color: #c7d0d3;
+ }
+ 
+ .navbarContainer li a {
+     display: block;
+     color: #8b9dc3;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .navbarContainer li a:hover {
+     border-radius: 12px;
+     background-color: #ff0000;
+ }
+ 
+ .navbarContainer li ul li {
+     display: none;
+ }
+ 
+ ul li:hover ul li {
+     display: block;
+     border-radius: 12px;
+ }
+ /* Managing social bar */
+ 
+ .socialRes {
+     position: fixed;
+     right: 2vw;
+     top: 40vh;
+     z-index: 10;
+ }
+ 
+ .socialRes li {
+     text-decoration: none;
+     display: block;
+     width: 3em;
+ }
+ 
+ .socialRes img {
+     margin-left: -1.6em;
+     border-radius: 12px;
+     margin-right: -1.3em;
+     background-color: rgb(82, 32, 219);
+     z-index: 10;
+ }
+ 
+ .socialRes img:hover {
+     width: 110%;
+ }

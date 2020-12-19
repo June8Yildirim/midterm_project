@@ -1,0 +1,131 @@
+/* Managing social bar */
+
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* index menu configuration */
+
+#index {
+    position: absolute;
+    left: 22vw;
+    top: 15vh;
+    background-color: antiquewhite;
+}
+
+#index li {
+    display: inline-block;
+    position: relative;
+    letter-spacing: .6em;
+}
+
+#index a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+#index li:hover {
+    background-color: aquamarine;
+}
+
+
+/* ========================================================================= */
+
+
+/* ===================banners================== */
+
+.leftBanner {
+    position: absolute;
+    top: 30em;
+    /* height: 200%; */
+    width: 20em;
+    left: 9em;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+.rightBanner {
+    position: absolute;
+    top: 150em;
+    /* height: 200%; */
+    left: 9em;
+    width: 20em;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+.sakuraVSshin {
+    position: relative;
+    left: 20em;
+    top: -10em;
+}
+
+
+/* ======================== */
+
+
+/* clan features  */
+
+#clans_Page {
+    width: 50vw;
+    position: relative;
+    left: 30em;
+    top: 17em;
+}
+
+.nameOfClan {
+    font-weight: 800;
+    font-size: 1.4em;
+    position: relative;
+    top: 10vh;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.clanSpecialities {
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    text-indent: 2em;
+    text-align: left;
+}
+
+.clanImage {
+    position: relative;
+    right: -50vw;
+    bottom: 5em;
+    margin-right: 50vw;
+}
+
+.clanImage>img {
+    height: 30vh;
+}
+
+.clanImage>img:hover {
+    height: 60vh;
+}
+
+#seju,
+#uchiha,
+#uzumaki,
+#kazakage,
+#hyuga,
+#sarutobi,
+#hatake,
+#nara,
+#yamanaka,
+#aburame,
+#inuzika,
+#raikage,
+#hurano {
+    margin-top: -10em;
+}

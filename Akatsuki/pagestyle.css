@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+section {
+    font-weight: 300;
+    text-indent: 1em;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    text-align: justify;
+    top: 10vh;
+    min-left: 5vw;
+}
+
+#Akatsuki_info {
+    margin-bottom: 45vh;
+}
+
+#Akatsuki-left-banner {
+    position: fixed;
+    margin-left: 0;
+    margin-top: -1.5em;
+    height: 900px;
+    width: 296px;
+}
+
+#Akatsuki-right-banner {
+    position: fixed;
+    margin-left: 84vw;
+    margin-top: -1.5em;
+    height: 900px;
+    width: 296px;
+}
+
+#Akatsuki_intro h1 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+#Akatsuki_intro div {
+    margin-top: 20px;
+}
+
+#Akatsuki_info h2 {
+    margin: 1em 0;
+}
+
+#Akatsuki_info h3 {
+    margin-top: 0.5em;
+}
+
+#Akatsuki_info div {
+    clear: left;
+}
+
+#Akatsuki_info p {
+    padding: 5px;
+}
+
+#Akatsuki {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.characterPortrait {
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;
+    left: -2em;
+    clear: left;
+}
+
+#Black_Zetsu {
+    margin-right: 2.5em;
+    width: 13em;
+}
+
+#Itachi_Uchiha {
+    margin-left: em;
+    margin-right: -0.6em;
+    width: 16em
+}
+
+#Konan {
+    margin-left: -2.2em;
+    margin-right: 0.6em;
+    width: 17em;
+}
+
+#Kisame_Hoshigaki {
+    margin-left: -5em;
+    margin-right: 0.8em;
+    width: 19.7em;
+}
+
+#Sasori {
+    margin-right: 3.5em;
+    width: 12em;
+}
+
+#Deidara {
+    margin-left: -2.3em;
+    margin-right: 1.8em;
+    width: 16em;
+}
+
+#Hiden {
+    margin-left: -7.5em;
+    margin-right: 1.1em;
+    width: 22em;
+}
+
+#Kakuzu {
+    margin-left: -1em;
+    margin-right: 2.2em;
+}

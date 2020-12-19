@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+
+/* ================= */
+
+.left_banner {
+    position: fixed;
+    top: 10vh;
+    left: 2vw;
+    z-index: -5;
+    opacity: .6;
+}
+
+.right_banner {
+    position: fixed;
+    top: 10vh;
+    left: 80vw;
+    z-index: -5;
+    opacity: .6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+section {
+    font-weight: 300;
+    text-indent: 1em;
+    width: 50vw;
+    font-size: 14px;
+    position: relative;
+    left: 25vw;
+    min-left: 5vw;
+    text-align: justify;
+    line-height: 3em;
+    top: 25vh;
+    margin-bottom: 15vh;
+}
+
+#Hats img {
+    position: relative;
+    width: 8em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.Kage img {
+    position: relative;
+    width: 12em;
+    height: 10em;
+    display: inline-block;
+    margin-left: 1em;
+    /* margin-right: 1em; */
+}
+
+.Kage .secondLine {
+    margin-left: 1em;
+    margin-right: .7em;
+}
+
+.Kage h2 {
+    text-align: center;
+}

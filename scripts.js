@@ -1,9 +1,9 @@
 window.alert("For your safety from the COVID-19 please follow guidelines!");
-alert("For your safety from the COVID-19 please follow guidelines!")
+// alert("For your safety from the COVID-19 please follow guidelines!")
 
-function warn() {
-    alert("For your safety from the COVID-19 please follow guidelines!");
-}
+// function warn() {
+//     alert("For your safety from the COVID-19 please follow guidelines!");
+// }
 
 // function hideIt(event) {
 //     event.target.style.display = "none";
@@ -31,7 +31,8 @@ function warn() {
 //     } else {
 //         alert("your mail address is a valid")
 //     }
-// }
+// // }
+
 
 function hideIt(event) {
     event.target.style.display = "none";
@@ -42,12 +43,18 @@ function setUp() {
 }
 addEventListener("load", setUp)
 
-// function hideIt(event) {
-//     event.target.style.display = "none";
-// }
 
-// function setUp() {
-//     document.querySelector("#testScript2").addEventListener("click", hideIt);
-// }
 
-// addEventListener("load", setUp)
+function reveal() {
+    document.querySelector("#click").addEventListener("click", revealed);
+}
+
+function revealed() {
+    var y = document.getElementById("explainer");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+}
+addEventListener("load", reveal);

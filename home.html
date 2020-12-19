@@ -3,37 +3,43 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pagestyle.css" />
+    <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="body.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Open Sans for paragraph and list item -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
     <!-- Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet" />
-    <!-- Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-    <!-- Big shoulder for header and footer-->
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;500;700&display=swap" rel="stylesheet" />
     <meta name="viewport" content="width=100px, initial-scale=1.0" />
-    <meta name="Authors" content="Richard Veillette & Cuneyt Yildirim" />
+    <meta name="Authors" content="Richard Veillette & Robert Gutkowski & Cuneyt Yildirim" />
     <meta name="description" content="Midterm project " />
     <meta name="generator" content="used for Visual Studio Code and Brackets " />
     <meta name="keywords" content="Naruto, Akatsuki, Sasuke, Sharingan, Dojutsu, Anime, Manga Series" />
     <title>Welcome Naruto's World</title>
+    <!-- <link rel="icon" type="image/gif" href="logos/favicon.ico" /> -->
+    <script>
+        // function setUp() {
+        //     document.querySelector("#click").addEventListener("click", revealed);
+        // }
+
+        // function revealed() {
+        //     var y = document.getElementById("explainer");
+        //     if (y.style.display === "none") {
+        //         y.style.display = "block";
+        //     } else {
+        //         y.style.display = "none";
+        //     }
+        // }
+        // addEventListener("load", setUp);
+    </script>
 </head>
 
 <body id="top">
-    <!-- <div id="testScript">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xm96Cqu4Ils" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> -->
-    <!-- <div id="testScript2">
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/WNeLUngb-Xg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> -->
-
-    <form action="">
-        <input type="button" value="Warn me, in case of forgetten" onclick="warn();" />
-    </form>
+    <div id="testScript">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zVgKnfN9i34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="images">
         <img class="sasukeLeft" src="images/sasuke.png" alt="" />
@@ -46,7 +52,9 @@
     <nav class="navbarContainer">
         <ul class="firstLevel">
             <li>
-                <a href="home.html"> Home</a>
+                <a href="home.html">
+            Home <i class="fa fa-home" aria-hidden="true"></i>
+          </a>
                 <ul class="secondLevel">
                     <li><a href="#intro">Information</a></li>
                     <li><a href="#info">Characraters</a></li>
@@ -56,7 +64,9 @@
             </li>
 
             <li>
-                <a href="Clans/clans.html">Clans </a>
+                <a href="Clans/clans.html">Clans
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </a>
                 <ul class="secondLevel">
                     <li><a href="Clans/clans.html#otsutsuki">Otsutsuki</a></li>
                     <li><a href="Clans/clans.html#seju">Seju</a></li>
@@ -75,7 +85,9 @@
                 </ul>
             </li>
             <li>
-                <a href="Demons/demons.html">Jinchuriki </a>
+                <a href="Demons/demons.html">Jinchuriki
+            <i class="fa fa-ban" aria-hidden="true"></i>
+          </a>
                 <ul class="secondLevel">
                     <li><a href="Demons/demons.html#ichibi">One-Tail</a></li>
                     <li><a href="Demons/demons.html#nibi">Two-Tail</a></li>
@@ -90,7 +102,9 @@
                 </ul>
             </li>
             <li>
-                <a href="Hokages/Hokages.html">Hokages</a>
+                <a href="Hokages/Hokages.html">Kages
+            <i class="fa fa-leaf" aria-hidden="true"></i>
+          </a>
                 <ul class="secondLevel">
                     <li><a href="Hokages/hokages.html#hokage">Hokage</a></li>
                     <li><a href="Hokages/hokages.html#kazekage">Kazekage</a></li>
@@ -99,20 +113,37 @@
                 </ul>
             </li>
             <li>
-                <a href="Akatsuki/akatsuki.html">Akatsuki</a>
+                <a href="Akatsuki/akatsuki.html">Akatsuki
+            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+          </a>
                 <ul class="secondLevel">
-                    <li><a href="Demons/demons.html#nibi">Nibi</a></li>
-                    <li><a href="Demons/demons.html#sanbi">Sanbi</a></li>
-                    <li><a href="Demons/demons.html#yonbi">Yonbi</a></li>
-                    <li><a href="Demons/demons.html#gobi">Gobi</a></li>
-                    <li><a href="Demons/demons.html#rokubi">Rokubi</a></li>
-                    <li><a href="Demons/demons.html#nababi">Nababi</a></li>
-                    <li><a href="Demons/demons.html#hachibi">Hachibi</a></li>
-                    <li><a href="Demons/demons.html#kyubi">Kyubi</a></li>
-                    <li><a href="Demons/demons.html#jubi">Jubi</a></li>
+                    <li><a href="../Akatsuki/akatsuki.html#Nagato">Nagato</a></li>
+                    <li>
+                        <a href="../Akatsuki/akatsuki.html#Black_Zetsu">Black Zetsu</a>
+                    </li>
+                    <li>
+                        <a href="../Akatsuki/akatsuki.html#Obito_Uchiha">Obito Uchiha</a>
+                    </li>
+                    <li>
+                        <a href="../Akatsuki/akatsuki.html#Itachi_Uchiha">Itachi Uchiha</a
+              >
+            </li>
+            <li><a href="../Akatsuki/akatsuki.html#Konan">Konan</a></li>
+                    <li>
+                        <a href="../Akatsuki/akatsuki.html#Kisame_Hoshigaki">Kisame Hoshigaki</a
+              >
+            </li>
+            <li><a href="../Akatsuki/akatsuki.html#Sasori">Sasori</a></li>
+                    <li><a href="../Akatsuki/akatsuki.html#Deidara">Deidara</a></li>
+                    <li><a href="../Akatsuki/akatsuki.html#Hiden">Hiden</a></li>
+                    <li><a href="../Akatsuki/akatsuki.html#Kakuzu">Kakuzu</a></li>
                 </ul>
             </li>
-            <li><a href="../contact/contact.html">Contact</a></li>
+            <li>
+                <a href="../contact/contact.html">Contact
+            <i class="fa fa-comments" aria-hidden="true"></i>
+          </a>
+            </li>
         </ul>
     </nav>
     <div class="images">
@@ -353,13 +384,10 @@
 
         <div class="hinata">
           <h3>Hinata Hyuga</h3>
-          <p>
-            <figure class="position">
-              <img src="images/hinata.jpg" alt="Hinata" />
-            </figure>
-          </p>
+          <figure class="position">
+            <img src="images/hinata.jpg" alt="Hinata" />
+          </figure>
         </div>
-
         <div>
           <p>
             The former heiress of the Hyuga clan, later known as the
@@ -570,6 +598,9 @@
             <!-- <img src="images/dojutsu.jpg" alt="" /> -->
         </figure>
         <table>
+            <caption>
+                Most powerful dojutsus
+            </caption>
             <tr>
                 <td>
                     <img src="images/eyes/byakugan.png" alt="" />
@@ -592,9 +623,6 @@
                     <img src="images/eyes/narutoS.png" alt="" />
                 </td>
             </tr>
-            <caption>
-                Most powerful dojutsus
-            </caption>
         </table>
         <div>
             <h3>Overview</h3>
@@ -641,6 +669,18 @@
         <div>
             <cite><a href="workCited.html#fourteen">[14]</a> </cite>
         </div>
+        <div class="logo">
+            <figure>
+                <img id="button_logo" src="images/logo.png" alt="logo" />
+            </figure>
+            <button id="click">disappear me!</button>
+        </div>
+        <div id="explainer">
+            <p>I am Naruto Uzumaki, and this Web-page is revealing of my life.</p>
+            <blockquote>
+                “I’m not gonna run away, I never go back on my word! That’s my nindo: my ninja way.”
+            </blockquote>
+        </div>
     </section>
 
     <footer class="footerContainer">
@@ -682,6 +722,5 @@
         </div>
     </footer>
 </body>
-<!-- <script src="scripts.js"></script> -->
 
 </html>
