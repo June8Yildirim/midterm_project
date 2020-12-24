@@ -1,0 +1,68 @@
+.footerContainer {
+    position: relative;
+    background-color: #9e9d9aef;
+    width: 95.6vw;
+    bottom: 0;
+    height: 30vh;
+    top: 15em;
+    font-size: 11px;
+    border-top: 4px solid;
+    padding-left: 5em;
+    line-height: 1.6;
+}
+
+.footerAboutUs {
+    position: absolute;
+    width: 40vw;
+    top: 5em;
+    text-align: left;
+}
+
+.footerAboutUs span {
+    font-weight: 900;
+}
+
+
+/* ===================================  */
+
+.footermenu {
+    position: absolute;
+    top: 5em;
+    left: 54vw;
+    line-height: 1.8;
+}
+
+.footermenu ul {
+    list-style-type: none;
+}
+
+.footermenu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.footermenu p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+
+/* ================================================== */
+
+#form {
+    position: absolute;
+    left: 65vw;
+    top: 5em;
+    font-size: 12;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footerSocial {
+    position: absolute;
+    left: 80vw;
+    top: 5em;
+    font-weight: bold;
+}

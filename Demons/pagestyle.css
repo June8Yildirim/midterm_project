@@ -5,6 +5,22 @@ body {
     font-size: 14px;
 }
 
+.leftBanner {
+    position: fixed;
+}
+
+.leftBanner img,
+.rightBanner img {
+    height: 100vh;
+    width: 30em;
+    z-index: -20;
+}
+
+.rightBanner {
+    position: fixed;
+    right: 0;
+}
+
 #tailBeasts {
     font-family: 'Open Sans';
     text-indent: 1em;

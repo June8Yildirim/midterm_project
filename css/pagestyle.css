@@ -153,12 +153,9 @@ section {
     padding: .3em;
 }
 
-#gaara {
-    margin-top: 14em;
-}
-
+#gaara,
 #itachi {
-    margin-top: 12em;
+    margin-top: 8em;
 }
 
 #keke .position,
@@ -273,7 +270,17 @@ table img {
 
 /* ============================= */
 
+figcaption {
+    position: relative;
+    top: 1em;
+    z-index: 20;
+}
+
 #work-cited {
     top: 5vh;
     margin-bottom: 10vh;
+}
+
+#work-cited li {
+    list-style-type: decimal;
 }

@@ -1,67 +1,114 @@
 body {
-    font-family: 'Open Sans';
-    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(hokagepic/Summit.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-top: none;
+    margin-bottom: none;
+    margin-right: none;
+    margin-left: none;
 }
 
-
-/* ================= */
-
-.left_banner {
-    position: fixed;
-    top: 10vh;
-    left: 2vw;
-    z-index: -5;
-    opacity: .6;
-}
-
-.right_banner {
-    position: fixed;
-    top: 10vh;
-    left: 80vw;
-    z-index: -5;
-    opacity: .6;
+#color,
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#kagePos {
+    width: 50vw;
+    text-align: center;
+    display: inline-block;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 5vh;
+    display: inline-block;
+    color: hotpink;
 }
 
-section {
-    font-weight: 300;
-    text-indent: 1em;
-    width: 50vw;
-    font-size: 14px;
-    position: relative;
-    left: 25vw;
-    min-left: 5vw;
-    text-align: justify;
-    line-height: 3em;
-    top: 25vh;
-    margin-bottom: 15vh;
+h2 {
+    margin-top: 1em;
+    font-style: oblique;
+}
+
+#color {
+    color: hotpink;
+    background-color: black;
 }
 
 #Hats img {
     position: relative;
-    width: 8em;
-    margin-left: 1em;
-    margin-right: 1em;
+    display: inline-block;
+    width: 12em;
+    height: 15em;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.Kage img {
+#Kage img {
     position: relative;
     width: 12em;
     height: 10em;
     display: inline-block;
     margin-left: 1em;
-    /* margin-right: 1em; */
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
-.Kage .secondLine {
-    margin-left: 1em;
-    margin-right: .7em;
+#Hokage {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
 }
 
-.Kage h2 {
-    text-align: center;
+#Kazekage {
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: green;
+}
+
+#Mizukage {
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    color: royalblue;
+}
+
+#Raikage {
+    text-decoration: underline;
+    text-decoration-color: sandybrown;
+    color: sandybrown;
+}
+
+#Tsuchikage {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    color: brown;
+}
+
+#first {
+    color: red;
+    background-color: black;
+}
+
+#second {
+    color: green;
+    background-color: black;
+}
+
+#third {
+    color: royalblue;
+    background-color: black;
+}
+
+#fourth {
+    color: sandybrown;
+    background-color: black;
+}
+
+#fifth {
+    color: brown;
+    background-color: black;
 }

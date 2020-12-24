@@ -10,54 +10,28 @@ h1 {
 }
 
 
-/* index menu configuration */
-
-#index {
-    position: absolute;
-    left: 22vw;
-    top: 15vh;
-    background-color: antiquewhite;
-}
-
-#index li {
-    display: inline-block;
-    position: relative;
-    letter-spacing: .6em;
-}
-
-#index a {
-    text-decoration: none;
-    text-align: center;
-    font-family: 'montserrat';
-}
-
-#index li:hover {
-    background-color: aquamarine;
-}
-
-
 /* ========================================================================= */
 
 
 /* ===================banners================== */
 
 .leftBanner {
-    position: absolute;
-    top: 30em;
-    /* height: 200%; */
-    width: 20em;
-    left: 9em;
+    position: fixed;
+    top: 2vh;
+    height: 100%;
+    width: 25em;
+    left: 1em;
     z-index: - 100;
     overflow: hidden;
     background: transparent url(img/play-button.png) repeat;
 }
 
 .rightBanner {
-    position: absolute;
-    top: 150em;
-    /* height: 200%; */
-    left: 9em;
-    width: 20em;
+    position: fixed;
+    top: 2vh;
+    right: 0;
+    width: 25em;
+    height: 100%;
     z-index: - 100;
     overflow: hidden;
     background: transparent url(img/play-button.png) repeat;
