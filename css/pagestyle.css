@@ -55,11 +55,23 @@ section {
     left: 75vw;
 }
 
+.sishuiRight+cite {
+    position: absolute;
+    top: 150vh;
+    left: 80vw;
+}
+
 .itachiLeft {
     position: absolute;
     top: 150vh;
     left: 3em;
     height: 60%;
+}
+
+.itachiLeft+cite {
+    position: absolute;
+    top: 150vh;
+    left: 10em;
 }
 
 .sakuraRight {
@@ -69,11 +81,23 @@ section {
     height: 60%;
 }
 
+.sakuraRight+cite {
+    position: absolute;
+    top: 260vh;
+    left: 10vw;
+}
+
 .hinataLeft {
     position: absolute;
     height: 60%;
     top: 260vh;
     left: 75vw;
+}
+
+.hinataLeft+cite {
+    position: absolute;
+    top: 260vh;
+    left: 80vw;
 }
 
 .painLeft {
@@ -84,12 +108,24 @@ section {
     z-index: -1;
 }
 
+.painLeft+cite {
+    position: absolute;
+    top: 338vh;
+    left: 7em;
+}
+
 .gaaraRight {
     position: absolute;
     top: 340vh;
     height: 60%;
     z-index: -1;
     left: 75vw;
+}
+
+.gaaraRight+cite {
+    position: absolute;
+    top: 340vh;
+    left: 90vw;
 }
 
 
@@ -163,7 +199,6 @@ section {
 #gaara .position {
     display: block;
     float: right;
-    /* clear: both; */
     position: relative;
     top: -1em;
     right: 22em;

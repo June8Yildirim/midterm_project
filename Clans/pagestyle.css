@@ -9,52 +9,15 @@ h1 {
     text-align: center;
 }
 
-
-/* ========================================================================= */
-
-
-/* ===================banners================== */
-
-.leftBanner {
-    position: fixed;
-    top: 2vh;
-    height: 100%;
-    width: 25em;
-    left: 1em;
-    z-index: - 100;
-    overflow: hidden;
-    background: transparent url(img/play-button.png) repeat;
-}
-
-.rightBanner {
-    position: fixed;
-    top: 2vh;
-    right: 0;
-    width: 25em;
-    height: 100%;
-    z-index: - 100;
-    overflow: hidden;
-    background: transparent url(img/play-button.png) repeat;
-}
-
-.sakuraVSshin {
-    position: relative;
-    left: 20em;
-    top: -10em;
-}
-
-
-/* ======================== */
-
-
-/* clan features  */
-
 #clans_Page {
     width: 50vw;
     position: relative;
-    left: 30em;
+    left: 22vw;
     top: 17em;
 }
+
+
+/* clan features  */
 
 .nameOfClan {
     font-weight: 800;
@@ -103,3 +66,53 @@ h1 {
 #hurano {
     margin-top: -10em;
 }
+
+:link {
+    background-color: rgb(184, 230, 230);
+    border-radius: 30%;
+}
+
+
+/* ========================================================================= */
+
+iframe {
+    position: relative;
+    top: -15em;
+    left: 10vw;
+    margin-bottom: -14em;
+}
+
+
+/* ===================banners================== */
+
+.leftBanner {
+    position: fixed;
+    top: 2vh;
+    height: 100%;
+    width: 25em;
+    left: 1em;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+.rightBanner {
+    position: fixed;
+    top: 2vh;
+    right: 0;
+    width: 25em;
+    height: 100%;
+    z-index: - 100;
+    overflow: hidden;
+    background: transparent url(img/play-button.png) repeat;
+}
+
+#sakuraVSshin {
+    position: relative;
+    left: 20em;
+    top: -10em;
+    margin-bottom: 1em;
+}
+
+
+/* ======================== */

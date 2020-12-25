@@ -1,5 +1,5 @@
-const userName = prompt("Please enter your name");
-alert("Hello "+ userName +" please follow guidelines");
+const userName = prompt("Please enter your name", "Naruto Uzumaki");
+alert("Hello " + userName + "! Please follow the local guidelines about the COVID-19.");
 
 
 

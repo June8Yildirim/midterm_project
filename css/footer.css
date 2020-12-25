@@ -3,7 +3,7 @@
     background-color: #9e9d9aef;
     width: 95.6vw;
     bottom: 0;
-    height: 30vh;
+    height: 20vh;
     top: 15em;
     font-size: 11px;
     border-top: 4px solid;
@@ -14,7 +14,7 @@
 .footerAboutUs {
     position: absolute;
     width: 40vw;
-    top: 5em;
+    top: 2vh;
     text-align: left;
 }
 
@@ -27,9 +27,8 @@
 
 .footermenu {
     position: absolute;
-    top: 5em;
+    top: 2vh;
     left: 54vw;
-    line-height: 1.8;
 }
 
 .footermenu ul {
@@ -54,7 +53,7 @@
 #form {
     position: absolute;
     left: 65vw;
-    top: 5em;
+    top: 2vh;
     font-size: 12;
     font-weight: bold;
     text-align: left;
@@ -63,6 +62,6 @@
 .footerSocial {
     position: absolute;
     left: 80vw;
-    top: 5em;
+    top: 2vh;
     font-weight: bold;
 }

@@ -11,14 +11,15 @@ body {
 
 form {
     position: relative;
-    left: 3em;
+    left: 3vw;
+    z-index: 10;
 }
 
 #secondForm {
     position: relative;
     top: -65vh;
     left: 45vw;
-    /* float: left; */
+    z-index: -10;
 }
 
 #e_mail,

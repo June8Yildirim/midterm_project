@@ -1,13 +1,13 @@
 body {
     display: inline-block;
     text-align: center;
-    background-image: url(hokagepic/Summit.jpg);
-    background-position: center;
-    background-size: contain;
-    margin-top: none;
-    margin-bottom: none;
-    margin-right: none;
-    margin-left: none;
+    margin: none;
+}
+
+section {
+    position: relative;
+    top: 25vh;
+    margin-bottom: 10vh;
 }
 
 #color,
@@ -48,7 +48,7 @@ h2 {
     margin-bottom: 2em;
 }
 
-#Kage img {
+.Kage img {
     position: relative;
     width: 12em;
     height: 10em;
